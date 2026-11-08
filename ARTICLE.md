@@ -2,7 +2,7 @@
 
 Live Server — 84 million installs, the top row of the results below — bundles `websocket-driver 0.7.4` and gets caught by CRITICAL [GHSA-xv26-6w52-cph6](https://github.com/advisories/GHSA-xv26-6w52-cph6) / CVE-2026-54466. It is the loudest finding in a scan of the top 100 third-party extensions on the VS Code Marketplace, but not the only one.
 
-Every finding below is at the evidence level **Present** — the vulnerable `(name, version)` pair is physically inside the shipped `.vsix` bundle. I have not run a dynamic PoC against any of them; **Reachable** and **Exploitable** are not claimed for any row. (I explain the ladder further down.) The point of the post is not "these extensions can be hacked." It is that VS Code gives users no interface to see the dependency surface of what they install, and the Marketplace does not re-check published bundles against advisories that appear after release.
+Every finding below is at the evidence level **Present** — the vulnerable `(name, version)` pair is physically inside the shipped `.vsix` bundle. I have not run a dynamic PoC against any of them; **Reachable** and **Exploitable** are not claimed for any row. (I explain the ladder further down.) The point of the post is not "these extensions can be hacked." It is that VS Code gives users no interface to see the dependency surface of what they install, and I could not find a publicly documented Marketplace mechanism that re-checks published bundles against advisories that appear after release.
 
 ## Why I ran this
 
@@ -10,7 +10,7 @@ Two reasons.
 
 **Workspace Trust mitigated the easy extension attacks.** Since VS Code 1.57 (May 2021), an extension that does not declare `capabilities.untrustedWorkspaces` support is disabled when you open a repo marked untrusted. The classic "clone a malicious repo, press F5, get RCE via `.vscode/settings.json`" class is now gated behind the user's trust decision. The gate is not absolute — a user who clicks "Trust" through habit re-opens the surface, extensions that declare support run anyway, and the check does not reach dependency CVEs — but the easy path is meaningfully smaller than it was four years ago.
 
-**But what is under the hood?** VS Code extensions ship their own `node_modules` inside the `.vsix` bundle. Whatever the maintainer `npm install`ed the day they published is frozen in. Advisories published after that release never propagate backwards; nothing in the Marketplace or in VS Code itself tells either the maintainer or the user "an advisory now applies to something you shipped three months ago." That's the frozen-bundle problem.
+**But what is under the hood?** VS Code extensions ship their own `node_modules` inside the `.vsix` bundle. Whatever the maintainer `npm install`ed the day they published is frozen in. Advisories published after that release do not propagate backwards; I could not find a publicly documented mechanism in the Marketplace or in VS Code that tells either the maintainer or the user "an advisory now applies to something you shipped three months ago." That's the frozen-bundle problem.
 
 I wanted to measure it.
 
@@ -103,17 +103,17 @@ The highest-install row in the table. Tracing it as far as the static scan allow
 
 [`GHSA-xv26-6w52-cph6`](https://github.com/advisories/GHSA-xv26-6w52-cph6) / **CVE-2026-54466** — *"websocket-driver: Message corruption via abuse of protocol length headers"*. Severity **critical** per the GitHub Advisory API. Vulnerable range: `< 0.7.5`; first patched version: `0.7.5`. Advisory **published on 2026-07-15** (cross-checked against the GitHub Advisory API on 2026-11-08).
 
-The chronology is the interesting part. Live Server v5.7.10 was last updated on the Marketplace on **2026-02-27** — about five months *before* the GHSA on `websocket-driver` was published. The maintainer wasn't ignoring a known advisory. The advisory simply did not exist yet. A reasonable `npm install` on 2026-02-27 picks up `websocket-driver 0.7.4`, which was clean at the time. Five months later an advisory is filed against that version. The bundle on disk does not change, and nothing in the Marketplace surfaces the new risk.
+The chronology is the interesting part. Live Server v5.7.10 was last updated on the Marketplace on **2026-02-27** — about five months *before* the GHSA on `websocket-driver` was published. The maintainer wasn't ignoring a known advisory. The advisory simply did not exist yet. A reasonable `npm install` on 2026-02-27 picks up `websocket-driver 0.7.4`, which was clean at the time. Five months later an advisory is filed against that version. The bundle on disk does not change, and I could not find anything user-visible in the Marketplace that surfaces the new risk.
 
 Reachability without a PoC: `faye-websocket` is `live-server`'s WebSocket layer, and the live-reload channel is the extension's headline feature, so this copy of `websocket-driver` is very likely loaded when Live Server is running. I did not instrument the extension to confirm, and I did not attempt a crafted-frame reproduction — the finding sits at **Present** and **likely Loaded**, no higher. If you do the dynamic work, the repo has everything needed to reproduce the inventory and I'll link verified follow-ups.
 
-Static takeaway: an extension ranked 8th by installs on the unfiltered Marketplace on 2026-11-08 (and 1st in this filtered third-party sample) ships a CRITICAL advisory on a module that sits under its headline feature, four months after the advisory was filed, and nothing in the install flow tells the user.
+Static takeaway: an extension ranked 8th by installs on the unfiltered Marketplace on 2026-11-08 (and 1st in this filtered third-party sample) ships a CRITICAL advisory on a module that sits under its headline feature, four months after the advisory was filed, with nothing user-visible in the install flow flagging it.
 
 ## Three observations from the shape of this list
 
 **Install count is not a maintenance signal.** 84M installs doesn't mean anyone upstream is watching the advisory feed on your behalf. It means a lot of people downloaded the thing once. The maintainer may or may not be active — in Live Server's case they shipped a release about eight months before this snapshot, and the vulnerable dep is still there because the advisory postdates the release.
 
-**The still-on-disk-after-dormancy problem.** Bracket Pair Colorizer 2 was last updated on the Marketplace in March 2022. VS Code has shipped native bracket pair colorization in the core editor since 2021 (`editor.bracketPairColorization.enabled`). The extension's 6.7M installs still sit on users' machines, still load on VS Code startup if enabled, still ship `minimist` with a CRITICAL prototype-pollution advisory. VS Code does not uninstall dormant extensions on your behalf.
+**The still-on-disk-after-dormancy problem.** Bracket Pair Colorizer 2 was last updated on the Marketplace in March 2022. VS Code has shipped native bracket pair colorization in the core editor since 2021 (`editor.bracketPairColorization.enabled`). The extension has accumulated roughly 6.7M Marketplace installs; the public count doesn't say how many active copies remain, but every active copy still loads on VS Code startup if enabled and still ships `minimist` with a CRITICAL prototype-pollution advisory. VS Code does not uninstall dormant extensions on your behalf.
 
 **Lots of overlap on the same tired deps.** `brace-expansion`, `minimatch`, `braces`, `lodash`, `semver` show up across most of the affected extensions. One upstream fix, one maintainer release, several vulnerable extensions become clean. Maintainers usually don't notice until someone emails them.
 
@@ -121,7 +121,7 @@ Static takeaway: an extension ranked 8th by installs on the unfiltered Marketpla
 
 Not every extension ships a big bundle, but the ones that do carry a lot of dead surface along for the ride. Live Server's unpacked `extension/` directory is **30 MB**, and almost all of that is `extension/node_modules/`. The actual Live Server glue code — the TypeScript that bridges `live-server` into the VS Code extension API — is tiny; the bulk is transitive dependencies the npm resolver dragged in.
 
-Bundling with `esbuild` or `webpack` with tree-shaking helps: the shipped artifact only contains code reachable from the entry points. It's not a silver bullet — a transitive dep that *is* called stays in the bundle, and the vulnerable code path inside it still ships — but it typically shrinks both the bundle and the matched-advisory count. Measure the audit output before and after; do not assume the number went to zero.
+Bundling with `esbuild` or `webpack` can substantially reduce unused code — whether it removes a specific vulnerable path depends on the dependency graph, side effects, dynamic imports, and build configuration. It's not a silver bullet — a transitive dep that *is* called stays in the bundle, and the vulnerable code path inside it still ships — but it typically shrinks both the bundle and the matched-advisory count. Measure the audit output before and after; do not assume the number went to zero.
 
 For comparison: Code Runner's whole unpacked tree is 1.8 MB (1.2 MB of `node_modules`). Still shipping two HIGH advisories, but far less dead surface by volume.
 
