@@ -1,0 +1,23 @@
+# Pipeline outputs (regenerate with the scripts)
+top200.json
+filtered.json
+audit.json
+ranked.json
+osv_cache.json
+download.log
+audit.log
+
+# Downloaded artifacts — large, untrusted, regenerate from Marketplace
+vsix/
+unpacked/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
