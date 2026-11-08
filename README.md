@@ -17,9 +17,9 @@ No API keys, no scanner install, stdlib Python only.
 - Severity breakdown of the 103 pairs, each counted once at its worst-severity advisory: **12 CRITICAL / 61 HIGH / 24 MODERATE / 6 LOW**
 - Largest by install count: `ritwickdey.LiveServer` (84M) bundles `websocket-driver 0.7.4` (CRITICAL [GHSA-xv26-6w52-cph6](https://github.com/advisories/GHSA-xv26-6w52-cph6), published 2026-07-15)
 
-Every finding above is at evidence level **Present** (the vulnerable `(name, version)` is inside the shipped bundle). Reachable / Exploitable are not claimed. See [`ARTICLE.md`](./ARTICLE.md) § "Levels of evidence" and § "Limitations" — in particular, 64 of the 100 sampled extensions had zero shipped `node_modules` entries (mostly bundled with esbuild/webpack/rollup), so 19 / 100 is a lower bound on detectable findings in this sample, not an ecosystem prevalence estimate.
+Every finding above is at evidence level **Present** (the vulnerable `(name, version)` is inside the shipped bundle). Reachable / Exploitable are not claimed. 64 of the 100 sampled extensions had zero shipped `node_modules` entries (most of them bundled with esbuild/webpack/rollup, which hides dependencies from this scan), so 19 / 100 is the rate this manifest-based inventory found in this sample: not a lower bound on vulnerable code, and not an ecosystem prevalence estimate.
 
-Full per-extension breakdown: [`SUMMARY.md`](./SUMMARY.md). Flat row-per-row dataset: [`DATASET.csv`](./DATASET.csv). Writeup: [`ARTICLE.md`](./ARTICLE.md). Pinned snapshot inputs/outputs: [`runs/2026-11-08/`](./runs/2026-11-08/).
+Full per-extension breakdown: [`SUMMARY.md`](./SUMMARY.md). Flat row-per-row dataset: [`DATASET.csv`](./DATASET.csv). Pinned snapshot inputs/outputs: [`runs/2026-11-08/`](./runs/2026-11-08/).
 
 ## Longitudinal plan
 
