@@ -26,7 +26,7 @@ Reproducible in ~15 minutes with stdlib Python. No scanner install required.
 
 **3. Download each `.vsix`** from the `/vspackage` endpoint. A `.vsix` is a zip. Gentle pacing at 1 req/sec. All 100 downloads succeeded (~1.6 GB total).
 
-**4. Enumerate every `node_modules/<pkg>/package.json`** inside `extension/` after unzipping. For the top 100 this gave **1,357 nested dependency manifests** — of which **935 were unique by `(name, version)`** (712 unique package names, many shipped in two or more extensions at the same version).
+**4. Enumerate every `node_modules/<pkg>/package.json`** inside `extension/` after unzipping. For the top 100 this gave **1,357 nested dependency manifests** — of which **935 were unique by `(name, version)`** (712 unique package names, many shipped in two or more extensions at the same version). **64 of the 100 extensions had zero shipped `node_modules` entries**: some genuinely have no runtime deps, most are built with `esbuild`/`webpack`/`rollup` into a single JS file, and the scanner is blind to CVEs inside those bundles. See Limitations.
 
 **5. Batch-query OSV.dev** at `/v1/querybatch` — 500 queries per request, free, no auth. OSV covers GHSA, so every npm advisory shows up. Collect every matched advisory.
 
@@ -86,6 +86,15 @@ Every number in the Results table is **Present**. For a few deps I believe **Loa
 
 Publishing at Present is still worth it: the frozen-bundle pattern is a measurable property of the ecosystem, and 19 / 100 is a baseline you can compare future runs against. Upgrading individual rows to higher evidence levels is per-extension work, not a batch job.
 
+## Limitations
+
+Four things to flag before anyone cites a number from this post:
+
+1. **The scanner cannot see dependencies inside bundled JS.** It walks `extension/node_modules/<pkg>/package.json`. An extension built with `esbuild`, `webpack`, or `rollup` into a single JS file contains its dependencies' code but no per-dep `package.json`, so the scanner records zero deps for it. 64 of the 100 sampled extensions had zero shipped `node_modules` entries. Some of those genuinely have no runtime deps; most are bundled, and whatever CVEs are riding inside those bundles are invisible to this method. **19 / 100 is a lower bound on detectable findings in this sample, not an estimate of how many extensions in the ecosystem ship known-CVE code.** Doing better here needs source-map parsing or SBOM-at-build-time, which the Marketplace does not require.
+2. **Present ≠ Exploitable.** Covered in Levels of evidence; worth re-stating because it's the single most common misreading of supply-chain audit numbers.
+3. **The sample is top-by-installs, not top-by-risk.** A niche extension with 50k installs might ship worse code than a top-10 extension and wouldn't appear in this cut. The chosen sample serves the "most-shipped bundles" question; a risk-weighted sample would look different.
+4. **One snapshot is a data point, not a trend.** The repo pins 2026-11-08 under `runs/` and ships `diff_runs.py` for quarterly comparisons. The next re-run is scheduled for 2027-02-08.
+
 ## A closer look at Live Server
 
 The highest-install row in the table. Tracing it as far as the static scan allows.
@@ -118,7 +127,7 @@ For comparison: Code Runner's whole unpacked tree is 1.8 MB (1.2 MB of `node_mod
 
 ## What VS Code could do
 
-OSV's `/v1/querybatch` is free. The Marketplace already runs malware scans on `.vsix` uploads. Running OSV against the shipped `node_modules` of a `.vsix` on upload — exactly what the scripts in the repo do — would surface the top-20 findings on this list in an afternoon.
+OSV's `/v1/querybatch` is free. The Marketplace already runs malware scans on `.vsix` uploads. Running OSV against the shipped `node_modules` of a `.vsix` on upload — exactly what the scripts in the repo do — would surface the top-20 findings on this list in an afternoon. This same approach runs into the bundled-JS blind spot (see Limitations); covering bundled extensions properly needs an SBOM at build time, which `vsce` could require as a publisher input.
 
 More importantly, the same scan could run periodically against already-published `.vsix` artefacts and notify the publisher when a new advisory applies. A count surfaced on the public install page would let users factor it into their choice. That's the backfill mechanism I could not find in the public Marketplace feature set at the snapshot date — if one exists internally, I'd update the post.
 
