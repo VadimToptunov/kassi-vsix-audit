@@ -12,9 +12,9 @@ No API keys, no scanner install, stdlib Python only.
 
 - **19 / 100** extensions ship at least one known-CVE dependency
 - **1,357** nested dependency manifests enumerated across the 100 bundles (935 unique by `(name, version)`)
-- **149** unique OSV advisory IDs matched across the 19 affected extensions
-- **103** unique `(extension, dependency)` pairs with ≥1 advisory
-- Severity breakdown (one row per `(ext, dep, lead_osv)`, at worst severity): **12 CRITICAL / 61 HIGH / 24 MODERATE / 6 LOW**
+- **103** unique `(extension, dependency)` pairs with ≥1 matching advisory (a dep can match multiple advisories; one advisory can appear in many extensions, so this differs from the advisory-id count below)
+- **149** unique OSV advisory IDs matched across those 103 pairs
+- Severity breakdown of the 103 pairs, each counted once at its worst-severity advisory: **12 CRITICAL / 61 HIGH / 24 MODERATE / 6 LOW**
 - Largest by install count: `ritwickdey.LiveServer` (84M) bundles `websocket-driver 0.7.4` (CRITICAL [GHSA-xv26-6w52-cph6](https://github.com/advisories/GHSA-xv26-6w52-cph6), published 2026-07-15)
 
 Every finding above is at evidence level **Present** (the vulnerable `(name, version)` is inside the shipped bundle). Reachable / Exploitable are not claimed. See [`ARTICLE.md`](./ARTICLE.md) § "Levels of evidence".

@@ -1,4 +1,4 @@
-# I audited the top 100 VS Code extensions for shipped CVEs. Here is what I found.
+# I audited the top 100 third-party VS Code extensions for shipped CVEs. Here is what I found.
 
 Spoiler: **19 out of 100** sampled extensions ship at least one known-CVE dependency inside their `.vsix` bundle. The one with the largest install base — Live Server, 84 million installs — bundles `websocket-driver 0.7.4` (CRITICAL [GHSA-xv26-6w52-cph6](https://github.com/advisories/GHSA-xv26-6w52-cph6) / CVE-2026-54466).
 
@@ -38,10 +38,12 @@ Six Python files, 527 lines total, stdlib only. Three APIs: Marketplace's `exten
 
 ## Results
 
-- **19 / 100** sampled extensions had at least one matching advisory.
-- **103** unique `(extension, dependency)` pairs with ≥1 advisory.
-- **149** unique OSV advisory IDs matched across the 19 affected extensions.
-- Severity breakdown across all matched rows: **12 CRITICAL**, **61 HIGH**, **24 MODERATE**, **6 LOW** (rows counted once at their worst severity).
+Three different counts, because the numbers answer three different questions:
+
+- **19 / 100** sampled extensions had at least one `(dependency, version)` inside their bundle matching an OSV advisory.
+- **103** unique `(extension, dependency)` pairs with ≥1 matching advisory. A single `(extension, dependency)` pair can match multiple advisories — a dep may have several open advisories or be below more than one fix threshold — so this is less than the total advisory matches.
+- **149** unique OSV advisory IDs across those 103 pairs. One advisory often shows up in many extensions (`lodash`, `minimatch`, `braces`, `brace-expansion`, `semver` are the serial offenders), so advisory-id-count and pair-count diverge.
+- Severity breakdown of the 103 pairs, each counted once at its worst-severity advisory: **12 CRITICAL**, **61 HIGH**, **24 MODERATE**, **6 LOW**.
 
 Sorted by install count on the snapshot date. "Worst sev" is the maximum severity across all matched advisories inside that extension's bundle.
 
@@ -90,15 +92,15 @@ The highest-install row in the table. Tracing it as far as the static scan allow
 
 `ritwickdey.LiveServer 5.7.10` ships `extension/node_modules/live-server/`. That is the `live-server` npm package, which the extension wraps as its HTTP + live-reload server. `live-server` depends on `faye-websocket`, which depends on `websocket-driver 0.7.4` — present under `extension/node_modules/websocket-driver/`.
 
-[`GHSA-xv26-6w52-cph6`](https://github.com/advisories/GHSA-xv26-6w52-cph6) — *"websocket-driver: Message corruption via abuse of protocol length headers"*. CRITICAL per OSV. Fixed in `websocket-driver >= 0.7.5`. The advisory was **published on 2026-07-15**, four months before this snapshot.
+[`GHSA-xv26-6w52-cph6`](https://github.com/advisories/GHSA-xv26-6w52-cph6) / **CVE-2026-54466** — *"websocket-driver: Message corruption via abuse of protocol length headers"*. Severity **critical** per the GitHub Advisory API. Vulnerable range: `< 0.7.5`; first patched version: `0.7.5`. Advisory **published on 2026-07-15** (cross-checked against the GitHub Advisory API on 2026-11-08).
 
-Here's the interesting part of the chronology. Live Server v5.7.10 was last updated on the Marketplace on **2026-02-27** — five months *before* the GHSA on `websocket-driver` was published. The maintainer wasn't ignoring a known advisory at the time they shipped. The advisory simply did not exist yet.
+Here's the interesting part of the chronology. Live Server v5.7.10 was last updated on the Marketplace on **2026-02-27** — about five months *before* the GHSA on `websocket-driver` was published. The maintainer wasn't ignoring a known advisory at the time they shipped. The advisory simply did not exist yet.
 
-This is the frozen-bundle problem in one case study. A perfectly reasonable npm install becomes a vulnerable one when an advisory is filed later, and nothing in the ecosystem tells anyone. The Marketplace does not notify the maintainer. VS Code does not notify the user. The `.vsix` on disk does not change.
+This is the frozen-bundle problem in one case study. A reasonable `npm install` on 2026-02-27 picks up `websocket-driver 0.7.4`, which was not under any OSV advisory at the time. Five months later an advisory is filed against that version. The bundle on disk does not change. I could not find a publicly documented, user-visible Marketplace mechanism that re-scans already-published `.vsix` artefacts against new OSV rows or notifies the publisher when a matching advisory appears; corrections welcome if one exists.
 
 How far I can go on reachability without a PoC: `faye-websocket` is `live-server`'s WebSocket layer, and the live-reload channel is the extension's headline feature, so it is likely that this copy of `websocket-driver` is loaded when Live Server is running. I did not instrument Live Server to confirm module load; I did not attempt a crafted-frame reproduction. **Potentially reachable, verified present, unverified reachable or exploitable.** If someone wants to do the dynamic work and confirm or refute the Reachable / Exploitable claim, the repo has everything needed to reproduce the inventory and I would be glad to link verified follow-ups.
 
-Static takeaway: the eighth-most-installed VS Code extension ships a CRITICAL advisory on a module that sits under its headline feature, four months after the advisory was filed, and nothing in the install flow tells the user.
+Static takeaway: an extension ranked 8th by installs on the unfiltered Marketplace on 2026-11-08 (and 1st in this filtered third-party sample) ships a CRITICAL advisory on a module that sits under its headline feature, four months after the advisory was filed, and nothing in the install flow tells the user.
 
 ## Three observations from the shape of this list
 
@@ -118,17 +120,17 @@ For comparison: Code Runner's whole unpacked tree is 1.8 MB (1.2 MB of `node_mod
 
 ## What VS Code could do
 
-`npm audit` exists. OSV's `/v1/querybatch` is free. The Marketplace already runs malware scans on `.vsix` uploads. Running OSV against the shipped `node_modules` of a `.vsix` on upload — exactly what the scripts in the repo do — would surface the top-20 findings on this list in an afternoon.
+OSV's `/v1/querybatch` is free. The Marketplace already runs malware scans on `.vsix` uploads. Running OSV against the shipped `node_modules` of a `.vsix` on upload — exactly what the scripts in the repo do — would surface the top-20 findings on this list in an afternoon.
 
-More importantly, the same scan could run periodically against already-published `.vsix` artefacts, which addresses the frozen-bundle problem directly. When a new GHSA drops that affects a shipped version, the Marketplace could notify the publisher and surface a count on the public install page. That's the backfill mechanism the ecosystem is missing.
+More importantly, the same scan could run periodically against already-published `.vsix` artefacts and notify the publisher when a new advisory applies, which addresses the frozen-bundle chronology directly. A count surfaced on the public install page would let users factor it into their choice. That is the kind of backfill mechanism I could not find in the public Marketplace feature set at the snapshot date.
 
-I understand why Microsoft does not do this today. The signal-to-noise is uneven, the extension author has to respond, and the Marketplace team does not own the problem. Still, the current equilibrium — the `.vsix` is a frozen snapshot that ships forever with whatever advisories were quiet at publish time, and silently acquires new ones as time passes — is a slow drift toward a worse state over time.
+I am not inside Microsoft's processes, and there may be reasons this is harder than it looks from the outside: signal-to-noise is uneven, the extension author has to respond, and reachability is a per-extension question. The point stands at the ecosystem level: the `.vsix` is a frozen snapshot that ships forever with whatever advisories were quiet at publish time, and silently acquires new ones as time passes.
 
 ## What maintainers can do
 
 For anyone shipping a VS Code extension right now:
 
-- **Audit the final `.vsix`, not just the source tree.** `npm audit --production` against your working copy reports what's in your lockfile, not what ultimately lands inside the packaged bundle. Package with `vsce package`, unzip the result, run `npm audit` against the bundled `node_modules`, and check it against what you expected. The `audit_extensions.py` script in the repo does exactly this against any `.vsix` you point it at.
+- **Audit the final `.vsix`, not just the source tree.** `npm audit` against your working copy reports what's in your lockfile — that is a source-tree check and is not the same as an inventory of what shipped. The reliable artifact-level audit is: package with `vsce package`, unzip the result, enumerate every `(name, version)` pair under `extension/node_modules/*/package.json` (and the `@scope/name` variant), and query OSV. That is exactly what `audit_extensions.py` in the repo does, and the ~110 lines around that pipeline are the useful piece to copy into your own release workflow.
 - **Bundle with `esbuild` or `webpack`.** Shipped `node_modules` directories are often large and contain code the extension never calls. Bundling and tree-shaking typically reduces both size and the number of surfaced advisories. It is not a guarantee: a transitive dep the extension *does* call is still bundled, and the vulnerable code path inside that call chain is still shipped. Measure the audit output before and after; do not assume the number went to zero.
 - **Re-audit already-published releases on a schedule.** The chronology in the Live Server case study — advisory published five months after the release — is not unusual. A quarterly re-check of your already-published `.vsix` against OSV catches advisories that appear after you ship. Treat it as the backfill the Marketplace does not provide.
 
