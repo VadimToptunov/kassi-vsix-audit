@@ -8,13 +8,18 @@ No API keys, no scanner install, stdlib Python only.
 
 ## Last run
 
-**2026-11-08, top 100 non-first-party extensions by install count:**
+**2026-11-08, top 100 non-first-party, non-theme code extensions by install count:**
 
 - **19 / 100** extensions ship at least one known-CVE dependency
-- **100** unique `(extension, dep, OSV)` findings
-- Worst: `ritwickdey.LiveServer` (84M installs) — ships `websocket-driver 0.7.4` (CRITICAL [GHSA-xv26-6w52-cph6](https://github.com/advisories/GHSA-xv26-6w52-cph6)) on its live-reload code path
+- **1,357** nested dependency manifests enumerated across the 100 bundles (935 unique by `(name, version)`)
+- **149** unique OSV advisory IDs matched across the 19 affected extensions
+- **103** unique `(extension, dependency)` pairs with ≥1 advisory
+- Severity breakdown (one row per `(ext, dep, lead_osv)`, at worst severity): **12 CRITICAL / 61 HIGH / 24 MODERATE / 6 LOW**
+- Largest by install count: `ritwickdey.LiveServer` (84M) bundles `websocket-driver 0.7.4` (CRITICAL [GHSA-xv26-6w52-cph6](https://github.com/advisories/GHSA-xv26-6w52-cph6), published 2026-07-15)
 
-See [`SUMMARY.md`](./SUMMARY.md) for the full per-extension breakdown. The companion write-up with method, observations, and interpretation is [`ARTICLE.md`](./ARTICLE.md).
+Every finding above is at evidence level **Present** (the vulnerable `(name, version)` is inside the shipped bundle). Reachable / Exploitable are not claimed. See [`ARTICLE.md`](./ARTICLE.md) § "Levels of evidence".
+
+Full per-extension breakdown: [`SUMMARY.md`](./SUMMARY.md). Flat row-per-row dataset: [`DATASET.csv`](./DATASET.csv). Writeup: [`ARTICLE.md`](./ARTICLE.md).
 
 ## Pipeline
 
@@ -27,7 +32,7 @@ python3 query_marketplace.py top200.json
 # 2. Drop first-party (ms-*, vscjava, GitHub, …) and themes
 python3 filter_publishers.py top200.json filtered.json
 
-# 3. Download .vsix for top 100 non-first-party — 1 req/sec, ~1.5 GB
+# 3. Download .vsix for top 100 non-first-party — 1 req/sec, ~1.6 GB
 python3 download_vsix.py filtered.json 100 vsix/
 
 # 4. Unpack each .vsix and OSV-query every shipped node_modules dep
@@ -40,7 +45,7 @@ python3 rank_findings.py audit.json filtered.json ranked.json
 python3 summarize.py ranked.json SUMMARY.md
 ```
 
-End-to-end takes about 15 minutes on a decent connection: ~3 minutes downloading, ~5 minutes auditing, the rest trivial.
+End-to-end takes about 15 minutes on a decent connection: ~3 minutes downloading, ~5 minutes auditing, the rest trivial. The `osv_cache.json` file produced by `rank_findings.py` is a local cache of OSV `/v1/vulns/<id>` responses; delete it to force a fresh fetch.
 
 ## What this is and is not
 
