@@ -19,7 +19,24 @@ No API keys, no scanner install, stdlib Python only.
 
 Every finding above is at evidence level **Present** (the vulnerable `(name, version)` is inside the shipped bundle). Reachable / Exploitable are not claimed. See [`ARTICLE.md`](./ARTICLE.md) § "Levels of evidence".
 
-Full per-extension breakdown: [`SUMMARY.md`](./SUMMARY.md). Flat row-per-row dataset: [`DATASET.csv`](./DATASET.csv). Writeup: [`ARTICLE.md`](./ARTICLE.md).
+Full per-extension breakdown: [`SUMMARY.md`](./SUMMARY.md). Flat row-per-row dataset: [`DATASET.csv`](./DATASET.csv). Writeup: [`ARTICLE.md`](./ARTICLE.md). Pinned snapshot inputs/outputs: [`runs/2026-11-08/`](./runs/2026-11-08/).
+
+## Longitudinal plan
+
+The intent is to re-run this quarterly (next: **2027-02-08**) and compare snapshots to measure:
+
+- how many of the affected extensions published a new release in the window;
+- how many old `(ext, dep, advisory)` rows disappeared (dep bumped past fix, dep removed, extension unpublished);
+- how many new rows appeared (new advisory on an already-shipped dep, or a newly-shipped vulnerable dep);
+- for each advisory, time between its publish date and the first extension release that cleared it (ecosystem response time).
+
+Each run pins its inputs and outputs under `runs/<YYYY-MM-DD>/`. `diff_runs.py` takes two run directories and emits a markdown changelog:
+
+```bash
+python3 diff_runs.py runs/2026-11-08 runs/2027-02-08 > CHANGELOG.md
+```
+
+Keep the pinned `top200.json` (raw Marketplace response), `filtered.json` (sampled extensions with `lastUpdated` timestamps), `audit.json` (raw OSV matches), `ranked.json` (enriched), and `DATASET.csv` (flat) for each run so historical diffs remain reproducible.
 
 ## Pipeline
 

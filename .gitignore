@@ -1,8 +1,9 @@
-# Pipeline outputs (regenerate with the scripts)
-top200.json
-filtered.json
-audit.json
-ranked.json
+# Pipeline outputs at repo root (regenerate with the scripts).
+# Pinned per-snapshot copies under runs/<YYYY-MM-DD>/ ARE tracked.
+/top200.json
+/filtered.json
+/audit.json
+/ranked.json
 osv_cache.json
 download.log
 audit.log

@@ -1,0 +1,1023 @@
+[
+  {
+    "ext": "CoenraadS.bracket-pair-colorizer-2-0.2.4",
+    "dep": "minimist",
+    "version": "1.2.5",
+    "vulns": [
+      "GHSA-xvch-5gv4-984h"
+    ]
+  },
+  {
+    "ext": "CoenraadS.bracket-pair-colorizer-2-0.2.4",
+    "dep": "json5",
+    "version": "2.2.0",
+    "vulns": [
+      "GHSA-9c47-m6qq-7p4h"
+    ]
+  },
+  {
+    "ext": "DotJoshJohnson.xml-2.5.1",
+    "dep": "lodash",
+    "version": "3.10.1",
+    "vulns": [
+      "GHSA-35jh-r3h4-6jhm",
+      "GHSA-4xc9-xhrj-v574",
+      "GHSA-fvqr-27wr-82fm",
+      "GHSA-jf85-cpcp-j695",
+      "GHSA-p6mc-m468-83gw"
+    ]
+  },
+  {
+    "ext": "DotJoshJohnson.xml-2.5.1",
+    "dep": "got",
+    "version": "6.7.1",
+    "vulns": [
+      "GHSA-pfrx-2q88-qq97"
+    ]
+  },
+  {
+    "ext": "DotJoshJohnson.xml-2.5.1",
+    "dep": "semver",
+    "version": "5.5.0",
+    "vulns": [
+      "GHSA-c2qf-rxjj-qqgw"
+    ]
+  },
+  {
+    "ext": "DotJoshJohnson.xml-2.5.1",
+    "dep": "ini",
+    "version": "1.3.5",
+    "vulns": [
+      "GHSA-qqgx-2p2h-9c37"
+    ]
+  },
+  {
+    "ext": "DotJoshJohnson.xml-2.5.1",
+    "dep": "xmldom",
+    "version": "0.1.27",
+    "vulns": [
+      "GHSA-27p8-2357-5qqv",
+      "GHSA-2v35-w6hq-6mfw",
+      "GHSA-4w3w-2rp5-g8jm",
+      "GHSA-5fg8-2547-mr8q",
+      "GHSA-6gmq-8vp8-gcm6",
+      "GHSA-6h8r-xr42-gp59",
+      "GHSA-8344-3jmq-59r6",
+      "GHSA-965w-775f-mr7g",
+      "GHSA-c7q8-3ch8-vqpv",
+      "GHSA-crh6-fp67-6883",
+      "GHSA-f6ww-3ggp-fr8h",
+      "GHSA-h6q6-9hqw-rwfv",
+      "GHSA-j759-j44w-7fr8",
+      "GHSA-w2rr-34g9-rvrj",
+      "GHSA-wh4c-j3r5-mjhp",
+      "GHSA-x6wf-f3px-wcqx"
+    ]
+  },
+  {
+    "ext": "DotJoshJohnson.xml-2.5.1",
+    "dep": "cross-spawn",
+    "version": "5.1.0",
+    "vulns": [
+      "GHSA-3xgq-45jj-v275"
+    ]
+  },
+  {
+    "ext": "DotJoshJohnson.xml-2.5.1",
+    "dep": "ansi-regex",
+    "version": "3.0.0",
+    "vulns": [
+      "GHSA-93q8-gq69-wqmw"
+    ]
+  },
+  {
+    "ext": "DotJoshJohnson.xml-2.5.1",
+    "dep": "minimist",
+    "version": "1.2.0",
+    "vulns": [
+      "GHSA-vh95-rmgr-6w4m",
+      "GHSA-xvch-5gv4-984h"
+    ]
+  },
+  {
+    "ext": "DotJoshJohnson.xml-2.5.1",
+    "dep": "dot-prop",
+    "version": "4.2.0",
+    "vulns": [
+      "GHSA-ff7x-qrg7-qggm"
+    ]
+  },
+  {
+    "ext": "EditorConfig.EditorConfig-0.18.2",
+    "dep": "brace-expansion",
+    "version": "5.0.5",
+    "vulns": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-jxxr-4gwj-5jf2",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895"
+    ]
+  },
+  {
+    "ext": "EditorConfig.EditorConfig-0.18.2",
+    "dep": "minimatch",
+    "version": "10.2.5",
+    "vulns": [
+      "GHSA-g3hv-75wg-m249"
+    ]
+  },
+  {
+    "ext": "HookyQR.beautify-1.5.0",
+    "dep": "minimist",
+    "version": "0.0.8",
+    "vulns": [
+      "GHSA-vh95-rmgr-6w4m",
+      "GHSA-xvch-5gv4-984h"
+    ]
+  },
+  {
+    "ext": "HookyQR.beautify-1.5.0",
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "vulns": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ]
+  },
+  {
+    "ext": "HookyQR.beautify-1.5.0",
+    "dep": "semver",
+    "version": "5.6.0",
+    "vulns": [
+      "GHSA-c2qf-rxjj-qqgw"
+    ]
+  },
+  {
+    "ext": "HookyQR.beautify-1.5.0",
+    "dep": "ini",
+    "version": "1.3.5",
+    "vulns": [
+      "GHSA-qqgx-2p2h-9c37"
+    ]
+  },
+  {
+    "ext": "HookyQR.beautify-1.5.0",
+    "dep": "minimatch",
+    "version": "3.0.4",
+    "vulns": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj",
+      "GHSA-f8q6-p94x-37v3"
+    ]
+  },
+  {
+    "ext": "James-Yu.latex-workshop-10.20.0",
+    "dep": "minimatch",
+    "version": "10.2.5",
+    "vulns": [
+      "GHSA-g3hv-75wg-m249"
+    ]
+  },
+  {
+    "ext": "James-Yu.latex-workshop-10.20.0",
+    "dep": "glob",
+    "version": "13.0.6",
+    "vulns": [
+      "GHSA-3g3m-2fjr-6pw4"
+    ]
+  },
+  {
+    "ext": "Oracle.oracle-java-27.0.0",
+    "dep": "brace-expansion",
+    "version": "2.1.4",
+    "vulns": [
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7"
+    ]
+  },
+  {
+    "ext": "Oracle.oracle-java-27.0.0",
+    "dep": "fast-uri",
+    "version": "3.1.8",
+    "vulns": [
+      "GHSA-333x-w4r6-6crp",
+      "GHSA-w74x-v6f9-j3xg",
+      "GHSA-wjr9-j795-jxcr",
+      "GHSA-xhq7-xmqj-769h"
+    ]
+  },
+  {
+    "ext": "Zignd.html-css-class-completion-1.20.0",
+    "dep": "lodash",
+    "version": "4.17.20",
+    "vulns": [
+      "GHSA-29mw-wpgm-hmr9",
+      "GHSA-35jh-r3h4-6jhm",
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ]
+  },
+  {
+    "ext": "Zignd.html-css-class-completion-1.20.0",
+    "dep": "qs",
+    "version": "6.5.2",
+    "vulns": [
+      "GHSA-4mjr-xmp4-gh2g",
+      "GHSA-6rw7-vpxm-498p",
+      "GHSA-hrpp-h998-j3pp"
+    ]
+  },
+  {
+    "ext": "Zignd.html-css-class-completion-1.20.0",
+    "dep": "form-data",
+    "version": "2.3.3",
+    "vulns": [
+      "GHSA-fjxv-7rqg-78g4",
+      "GHSA-hmw2-7cc7-3qxx"
+    ]
+  },
+  {
+    "ext": "Zignd.html-css-class-completion-1.20.0",
+    "dep": "request",
+    "version": "2.88.2",
+    "vulns": [
+      "GHSA-p8p7-x288-28g6"
+    ]
+  },
+  {
+    "ext": "Zignd.html-css-class-completion-1.20.0",
+    "dep": "decode-uri-component",
+    "version": "0.2.0",
+    "vulns": [
+      "GHSA-qr28-fpjm-wq7f",
+      "GHSA-vcc3-ghjq-m6fr",
+      "GHSA-w573-4hg7-7wgq"
+    ]
+  },
+  {
+    "ext": "Zignd.html-css-class-completion-1.20.0",
+    "dep": "uuid",
+    "version": "3.4.0",
+    "vulns": [
+      "GHSA-w5hq-g745-h8pq"
+    ]
+  },
+  {
+    "ext": "Zignd.html-css-class-completion-1.20.0",
+    "dep": "tough-cookie",
+    "version": "2.5.0",
+    "vulns": [
+      "GHSA-72xf-g2v4-qvf3"
+    ]
+  },
+  {
+    "ext": "Zignd.html-css-class-completion-1.20.0",
+    "dep": "ajv",
+    "version": "6.12.6",
+    "vulns": [
+      "GHSA-2g4f-4pwh-qvx6"
+    ]
+  },
+  {
+    "ext": "Zignd.html-css-class-completion-1.20.0",
+    "dep": "json-schema",
+    "version": "0.2.3",
+    "vulns": [
+      "GHSA-896r-f27r-55mw"
+    ]
+  },
+  {
+    "ext": "batisteo.vscode-django-1.15.0",
+    "dep": "toml",
+    "version": "3.0.0",
+    "vulns": [
+      "GHSA-4qx8-w7c3-pj3p",
+      "GHSA-82x6-q7mm-w9cf",
+      "GHSA-9j65-hcg3-gc64",
+      "GHSA-9qmh-m7c6-f92p",
+      "GHSA-h895-cgqg-jf52",
+      "GHSA-v5mp-jgw5-2x6j"
+    ]
+  },
+  {
+    "ext": "christian-kohler.path-intellisense-2.10.0",
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "vulns": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ]
+  },
+  {
+    "ext": "christian-kohler.path-intellisense-2.10.0",
+    "dep": "minimatch",
+    "version": "3.0.4",
+    "vulns": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj",
+      "GHSA-f8q6-p94x-37v3"
+    ]
+  },
+  {
+    "ext": "christian-kohler.path-intellisense-2.10.0",
+    "dep": "json5",
+    "version": "2.2.0",
+    "vulns": [
+      "GHSA-9c47-m6qq-7p4h"
+    ]
+  },
+  {
+    "ext": "cschlosser.doxdocgen-1.4.0",
+    "dep": "moment",
+    "version": "2.29.1",
+    "vulns": [
+      "GHSA-8hfj-j24r-96c4",
+      "GHSA-wc69-rhjr-hc9g"
+    ]
+  },
+  {
+    "ext": "cschlosser.doxdocgen-1.4.0",
+    "dep": "simple-git",
+    "version": "2.38.0",
+    "vulns": [
+      "GHSA-28xr-mwxg-3qc8",
+      "GHSA-3f95-r44v-8mrg",
+      "GHSA-858h-whjf-mvg5",
+      "GHSA-9p95-fxvg-qgq2",
+      "GHSA-9w5j-4mwv-2wj8",
+      "GHSA-g4wm-2vf7-vfgr",
+      "GHSA-hffm-xvc3-vprc",
+      "GHSA-jcxm-m3jx-f287"
+    ]
+  },
+  {
+    "ext": "formulahendry.code-runner-0.12.2",
+    "dep": "picomatch",
+    "version": "2.0.7",
+    "vulns": [
+      "GHSA-3v7f-55p6-f55p",
+      "GHSA-c2c7-rcm5-vvqj"
+    ]
+  },
+  {
+    "ext": "formulahendry.code-runner-0.12.2",
+    "dep": "micromatch",
+    "version": "4.0.2",
+    "vulns": [
+      "GHSA-952p-6rrq-rcjv"
+    ]
+  },
+  {
+    "ext": "formulahendry.code-runner-0.12.2",
+    "dep": "braces",
+    "version": "3.0.2",
+    "vulns": [
+      "GHSA-grv7-fg5c-xmjg"
+    ]
+  },
+  {
+    "ext": "naumovs.color-highlight-2.8.0",
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "vulns": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ]
+  },
+  {
+    "ext": "naumovs.color-highlight-2.8.0",
+    "dep": "minimatch",
+    "version": "3.1.2",
+    "vulns": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj"
+    ]
+  },
+  {
+    "ext": "naumovs.color-highlight-2.8.0",
+    "dep": "@babel/runtime",
+    "version": "7.24.0",
+    "vulns": [
+      "GHSA-968p-4wvh-cqc8"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "lodash",
+    "version": "4.17.21",
+    "vulns": [
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "flatted",
+    "version": "3.1.0",
+    "vulns": [
+      "GHSA-25h7-pfq9-p65f",
+      "GHSA-rf6f-7fwh-wjgh"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "js-yaml",
+    "version": "4.1.0",
+    "vulns": [
+      "GHSA-2883-xcg3-v3hh",
+      "GHSA-52cp-r559-cp3m",
+      "GHSA-5p4m-2wfm-xmqj",
+      "GHSA-h67p-54hq-rp68",
+      "GHSA-mh29-5h37-fv8m"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "diff",
+    "version": "4.0.2",
+    "vulns": [
+      "GHSA-73rr-hh4g-fpgx"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "semver",
+    "version": "7.3.8",
+    "vulns": [
+      "GHSA-c2qf-rxjj-qqgw"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "js-yaml",
+    "version": "3.14.1",
+    "vulns": [
+      "GHSA-2883-xcg3-v3hh",
+      "GHSA-52cp-r559-cp3m",
+      "GHSA-5p4m-2wfm-xmqj",
+      "GHSA-h67p-54hq-rp68",
+      "GHSA-mh29-5h37-fv8m"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "word-wrap",
+    "version": "1.2.3",
+    "vulns": [
+      "GHSA-j8xg-fqg3-53r7"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "semver",
+    "version": "5.7.1",
+    "vulns": [
+      "GHSA-c2qf-rxjj-qqgw"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "minimatch",
+    "version": "3.1.2",
+    "vulns": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "vulns": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "postcss-selector-parser",
+    "version": "6.0.11",
+    "vulns": [
+      "GHSA-rj75-hqrm-r3gf"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "cross-spawn",
+    "version": "7.0.3",
+    "vulns": [
+      "GHSA-3xgq-45jj-v275"
+    ]
+  },
+  {
+    "ext": "octref.vetur-0.37.3",
+    "dep": "ajv",
+    "version": "6.12.4",
+    "vulns": [
+      "GHSA-2g4f-4pwh-qvx6"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "on-headers",
+    "version": "1.0.2",
+    "vulns": [
+      "GHSA-76c9-3jph-rj3q"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "@tootallnate/once",
+    "version": "1.1.2",
+    "vulns": [
+      "GHSA-vpq2-c234-7xj6"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "extract-zip",
+    "version": "2.0.1",
+    "vulns": [
+      "GHSA-7pqw-9j4j-h8q3",
+      "GHSA-jmr9-qjv8-65gv"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "decompress",
+    "version": "4.2.1",
+    "vulns": [
+      "GHSA-h39j-r5qq-r9mm",
+      "GHSA-hrh2-vp3x-79xf",
+      "GHSA-jwp9-9v96-94mx",
+      "GHSA-mp2f-45pm-3cg9"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "path-to-regexp",
+    "version": "6.2.0",
+    "vulns": [
+      "GHSA-9wv6-86v2-598j"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "jpeg-js",
+    "version": "0.4.3",
+    "vulns": [
+      "GHSA-xvf7-4v9q-58w6"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "playwright",
+    "version": "1.15.0",
+    "vulns": [
+      "GHSA-7mvr-c777-76hp"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "vulns": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "minimatch",
+    "version": "3.0.4",
+    "vulns": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj",
+      "GHSA-f8q6-p94x-37v3"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "morgan",
+    "version": "1.10.0",
+    "vulns": [
+      "GHSA-4vj7-5mj6-jm8m",
+      "GHSA-9f6g-j8ch-79g4",
+      "GHSA-jxfw-x594-9x9m"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "ws",
+    "version": "7.5.5",
+    "vulns": [
+      "GHSA-3h5v-q93c-6h6q",
+      "GHSA-96hv-2xvq-fx4p"
+    ]
+  },
+  {
+    "ext": "oderwat.indent-rainbow-8.3.1",
+    "dep": "koa",
+    "version": "2.13.1",
+    "vulns": [
+      "GHSA-593f-38f6-jp5m",
+      "GHSA-7gcc-r8m5-44qm",
+      "GHSA-jgmv-j7ww-jx2x",
+      "GHSA-x2rg-q646-7m2v"
+    ]
+  },
+  {
+    "ext": "platformio.platformio-ide-3.3.4",
+    "dep": "xml2js",
+    "version": "0.4.23",
+    "vulns": [
+      "GHSA-776f-qx25-q3cc"
+    ]
+  },
+  {
+    "ext": "platformio.platformio-ide-3.3.4",
+    "dep": "underscore",
+    "version": "1.13.7",
+    "vulns": [
+      "GHSA-qpx9-hpmf-5gmw"
+    ]
+  },
+  {
+    "ext": "platformio.platformio-ide-3.3.4",
+    "dep": "brace-expansion",
+    "version": "2.0.1",
+    "vulns": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ]
+  },
+  {
+    "ext": "platformio.platformio-ide-3.3.4",
+    "dep": "minimatch",
+    "version": "9.0.5",
+    "vulns": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj",
+      "GHSA-g3hv-75wg-m249"
+    ]
+  },
+  {
+    "ext": "platformio.platformio-ide-3.3.4",
+    "dep": "glob",
+    "version": "10.4.5",
+    "vulns": [
+      "GHSA-3g3m-2fjr-6pw4",
+      "GHSA-5j98-mcp5-4vw2"
+    ]
+  },
+  {
+    "ext": "platformio.platformio-ide-3.3.4",
+    "dep": "minimatch",
+    "version": "3.1.2",
+    "vulns": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj"
+    ]
+  },
+  {
+    "ext": "platformio.platformio-ide-3.3.4",
+    "dep": "tar",
+    "version": "7.4.3",
+    "vulns": [
+      "GHSA-23hp-3jrh-7fpw",
+      "GHSA-34x7-hfp2-rc4v",
+      "GHSA-83g3-92jg-28cx",
+      "GHSA-8qq5-rm4j-mr97",
+      "GHSA-8x88-c5mf-7j5w",
+      "GHSA-9ppj-qmqm-q256",
+      "GHSA-gvwx-54wh-qm9j",
+      "GHSA-qffp-2rhf-9h96",
+      "GHSA-r292-9mhp-454m",
+      "GHSA-r6q2-hw4h-h46w",
+      "GHSA-vmf3-w455-68vh",
+      "GHSA-w8wr-v893-vjvp"
+    ]
+  },
+  {
+    "ext": "platformio.platformio-ide-3.3.4",
+    "dep": "ws",
+    "version": "8.18.0",
+    "vulns": [
+      "GHSA-58qx-3vcg-4xpx",
+      "GHSA-96hv-2xvq-fx4p"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "lodash",
+    "version": "4.17.21",
+    "vulns": [
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "on-headers",
+    "version": "1.0.2",
+    "vulns": [
+      "GHSA-76c9-3jph-rj3q"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "semver",
+    "version": "5.7.1",
+    "vulns": [
+      "GHSA-c2qf-rxjj-qqgw"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "es5-ext",
+    "version": "0.10.53",
+    "vulns": [
+      "GHSA-4gmj-3p3h-gm8h"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "got",
+    "version": "5.6.0",
+    "vulns": [
+      "GHSA-pfrx-2q88-qq97"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "picomatch",
+    "version": "2.3.1",
+    "vulns": [
+      "GHSA-3v7f-55p6-f55p",
+      "GHSA-c2c7-rcm5-vvqj"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "websocket-driver",
+    "version": "0.7.4",
+    "vulns": [
+      "GHSA-mp7j-qc5w-4988",
+      "GHSA-xv26-6w52-cph6"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "trim-newlines",
+    "version": "1.0.0",
+    "vulns": [
+      "GHSA-7p7h-4mm5-852v"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "shelljs",
+    "version": "0.7.8",
+    "vulns": [
+      "GHSA-4rq4-32rv-6wp6",
+      "GHSA-64g7-mvw6-v9qj"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "js-yaml",
+    "version": "3.14.1",
+    "vulns": [
+      "GHSA-2883-xcg3-v3hh",
+      "GHSA-52cp-r559-cp3m",
+      "GHSA-5p4m-2wfm-xmqj",
+      "GHSA-h67p-54hq-rp68",
+      "GHSA-mh29-5h37-fv8m"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "vulns": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "word-wrap",
+    "version": "1.2.3",
+    "vulns": [
+      "GHSA-j8xg-fqg3-53r7"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "minimatch",
+    "version": "3.1.2",
+    "vulns": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "morgan",
+    "version": "1.10.0",
+    "vulns": [
+      "GHSA-4vj7-5mj6-jm8m",
+      "GHSA-9f6g-j8ch-79g4",
+      "GHSA-jxfw-x594-9x9m"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "follow-redirects",
+    "version": "1.14.9",
+    "vulns": [
+      "GHSA-cxjh-pqwp-8mfp",
+      "GHSA-jchw-25xp-jwwc",
+      "GHSA-r4q5-vmmm-2653"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "send",
+    "version": "0.17.2",
+    "vulns": [
+      "GHSA-m6fv-jmcg-4jfg"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "uuid",
+    "version": "3.4.0",
+    "vulns": [
+      "GHSA-w5hq-g745-h8pq"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "braces",
+    "version": "3.0.2",
+    "vulns": [
+      "GHSA-grv7-fg5c-xmjg"
+    ]
+  },
+  {
+    "ext": "ritwickdey.LiveServer-5.7.10",
+    "dep": "ajv",
+    "version": "4.11.8",
+    "vulns": [
+      "GHSA-2g4f-4pwh-qvx6",
+      "GHSA-v88g-cgmw-v5xw"
+    ]
+  },
+  {
+    "ext": "steoates.autoimport-1.5.4",
+    "dep": "lodash",
+    "version": "4.17.21",
+    "vulns": [
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ]
+  },
+  {
+    "ext": "xdebug.php-debug-1.40.2",
+    "dep": "moment",
+    "version": "2.30.1",
+    "vulns": [
+      "GHSA-4p3w-j4w9-5jqw"
+    ]
+  },
+  {
+    "ext": "xdebug.php-debug-1.40.2",
+    "dep": "@xmldom/xmldom",
+    "version": "0.9.10",
+    "vulns": [
+      "GHSA-27p8-2357-5qqv",
+      "GHSA-3px3-54cx-rmw9",
+      "GHSA-4w3w-2rp5-g8jm",
+      "GHSA-6gmq-8vp8-gcm6",
+      "GHSA-6h8r-xr42-gp59",
+      "GHSA-6mj3-qw4j-hgrw",
+      "GHSA-8344-3jmq-59r6",
+      "GHSA-93r5-fhx6-vmg9",
+      "GHSA-965w-775f-mr7g",
+      "GHSA-c7q8-3ch8-vqpv",
+      "GHSA-g53g-w8rj-fmg7",
+      "GHSA-vr34-hp96-76pp",
+      "GHSA-w2rr-34g9-rvrj"
+    ]
+  },
+  {
+    "ext": "xdebug.php-debug-1.40.2",
+    "dep": "minimatch",
+    "version": "10.2.3",
+    "vulns": [
+      "GHSA-g3hv-75wg-m249"
+    ]
+  },
+  {
+    "ext": "xdebug.php-debug-1.40.2",
+    "dep": "brace-expansion",
+    "version": "5.0.5",
+    "vulns": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-jxxr-4gwj-5jf2",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895"
+    ]
+  },
+  {
+    "ext": "zobo.php-intellisense-1.3.3",
+    "dep": "brace-expansion",
+    "version": "2.0.1",
+    "vulns": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ]
+  },
+  {
+    "ext": "zobo.php-intellisense-1.3.3",
+    "dep": "minimatch",
+    "version": "5.1.6",
+    "vulns": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj"
+    ]
+  },
+  {
+    "ext": "zobo.php-intellisense-1.3.3",
+    "dep": "cross-spawn",
+    "version": "7.0.3",
+    "vulns": [
+      "GHSA-3xgq-45jj-v275"
+    ]
+  }
+]

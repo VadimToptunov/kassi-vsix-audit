@@ -1,0 +1,1435 @@
+[
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "websocket-driver",
+    "version": "0.7.4",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-xv26-6w52-cph6",
+    "all_osv": [
+      "GHSA-mp7j-qc5w-4988",
+      "GHSA-xv26-6w52-cph6"
+    ],
+    "score": 842543160
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "lodash",
+    "version": "4.17.21",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-r5fr-rjxr-66jc",
+    "all_osv": [
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "score": 421271580
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "semver",
+    "version": "5.7.1",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-c2qf-rxjj-qqgw",
+    "all_osv": [
+      "GHSA-c2qf-rxjj-qqgw"
+    ],
+    "score": 421271580
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "picomatch",
+    "version": "2.3.1",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-c2c7-rcm5-vvqj",
+    "all_osv": [
+      "GHSA-3v7f-55p6-f55p",
+      "GHSA-c2c7-rcm5-vvqj"
+    ],
+    "score": 421271580
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "trim-newlines",
+    "version": "1.0.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-7p7h-4mm5-852v",
+    "all_osv": [
+      "GHSA-7p7h-4mm5-852v"
+    ],
+    "score": 421271580
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "shelljs",
+    "version": "0.7.8",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-4rq4-32rv-6wp6",
+    "all_osv": [
+      "GHSA-4rq4-32rv-6wp6",
+      "GHSA-64g7-mvw6-v9qj"
+    ],
+    "score": 421271580
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "js-yaml",
+    "version": "3.14.1",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-2883-xcg3-v3hh",
+    "all_osv": [
+      "GHSA-2883-xcg3-v3hh",
+      "GHSA-52cp-r559-cp3m",
+      "GHSA-5p4m-2wfm-xmqj",
+      "GHSA-h67p-54hq-rp68",
+      "GHSA-mh29-5h37-fv8m"
+    ],
+    "score": 421271580
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3jxr-9vmj-r5cp",
+    "all_osv": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ],
+    "score": 421271580
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "minimatch",
+    "version": "3.1.2",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-23c5-xmqv-rm74",
+    "all_osv": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj"
+    ],
+    "score": 421271580
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "braces",
+    "version": "3.0.2",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-grv7-fg5c-xmjg",
+    "all_osv": [
+      "GHSA-grv7-fg5c-xmjg"
+    ],
+    "score": 421271580
+  },
+  {
+    "ext": "formulahendry.code-runner",
+    "installs": 42727107,
+    "dep": "picomatch",
+    "version": "2.0.7",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-c2c7-rcm5-vvqj",
+    "all_osv": [
+      "GHSA-3v7f-55p6-f55p",
+      "GHSA-c2c7-rcm5-vvqj"
+    ],
+    "score": 213635535
+  },
+  {
+    "ext": "formulahendry.code-runner",
+    "installs": 42727107,
+    "dep": "braces",
+    "version": "3.0.2",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-grv7-fg5c-xmjg",
+    "all_osv": [
+      "GHSA-grv7-fg5c-xmjg"
+    ],
+    "score": 213635535
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "got",
+    "version": "5.6.0",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-pfrx-2q88-qq97",
+    "all_osv": [
+      "GHSA-pfrx-2q88-qq97"
+    ],
+    "score": 168508632
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "word-wrap",
+    "version": "1.2.3",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-j8xg-fqg3-53r7",
+    "all_osv": [
+      "GHSA-j8xg-fqg3-53r7"
+    ],
+    "score": 168508632
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "morgan",
+    "version": "1.10.0",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-4vj7-5mj6-jm8m",
+    "all_osv": [
+      "GHSA-4vj7-5mj6-jm8m",
+      "GHSA-9f6g-j8ch-79g4",
+      "GHSA-jxfw-x594-9x9m"
+    ],
+    "score": 168508632
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "follow-redirects",
+    "version": "1.14.9",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-cxjh-pqwp-8mfp",
+    "all_osv": [
+      "GHSA-cxjh-pqwp-8mfp",
+      "GHSA-jchw-25xp-jwwc",
+      "GHSA-r4q5-vmmm-2653"
+    ],
+    "score": 168508632
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "uuid",
+    "version": "3.4.0",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-w5hq-g745-h8pq",
+    "all_osv": [
+      "GHSA-w5hq-g745-h8pq"
+    ],
+    "score": 168508632
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "ajv",
+    "version": "4.11.8",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-2g4f-4pwh-qvx6",
+    "all_osv": [
+      "GHSA-2g4f-4pwh-qvx6",
+      "GHSA-v88g-cgmw-v5xw"
+    ],
+    "score": 168508632
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "decompress",
+    "version": "4.2.1",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-hrh2-vp3x-79xf",
+    "all_osv": [
+      "GHSA-h39j-r5qq-r9mm",
+      "GHSA-hrh2-vp3x-79xf",
+      "GHSA-jwp9-9v96-94mx",
+      "GHSA-mp2f-45pm-3cg9"
+    ],
+    "score": 135176970
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "koa",
+    "version": "2.13.1",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-593f-38f6-jp5m",
+    "all_osv": [
+      "GHSA-593f-38f6-jp5m",
+      "GHSA-7gcc-r8m5-44qm",
+      "GHSA-jgmv-j7ww-jx2x",
+      "GHSA-x2rg-q646-7m2v"
+    ],
+    "score": 135176970
+  },
+  {
+    "ext": "cschlosser.doxdocgen",
+    "installs": 12451186,
+    "dep": "simple-git",
+    "version": "2.38.0",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-9w5j-4mwv-2wj8",
+    "all_osv": [
+      "GHSA-28xr-mwxg-3qc8",
+      "GHSA-3f95-r44v-8mrg",
+      "GHSA-858h-whjf-mvg5",
+      "GHSA-9p95-fxvg-qgq2",
+      "GHSA-9w5j-4mwv-2wj8",
+      "GHSA-g4wm-2vf7-vfgr",
+      "GHSA-hffm-xvc3-vprc",
+      "GHSA-jcxm-m3jx-f287"
+    ],
+    "score": 124511860
+  },
+  {
+    "ext": "HookyQR.beautify",
+    "installs": 10683614,
+    "dep": "minimist",
+    "version": "0.0.8",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-xvch-5gv4-984h",
+    "all_osv": [
+      "GHSA-vh95-rmgr-6w4m",
+      "GHSA-xvch-5gv4-984h"
+    ],
+    "score": 106836140
+  },
+  {
+    "ext": "Zignd.html-css-class-completion",
+    "installs": 10027714,
+    "dep": "form-data",
+    "version": "2.3.3",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-fjxv-7rqg-78g4",
+    "all_osv": [
+      "GHSA-fjxv-7rqg-78g4",
+      "GHSA-hmw2-7cc7-3qxx"
+    ],
+    "score": 100277140
+  },
+  {
+    "ext": "Zignd.html-css-class-completion",
+    "installs": 10027714,
+    "dep": "json-schema",
+    "version": "0.2.3",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-896r-f27r-55mw",
+    "all_osv": [
+      "GHSA-896r-f27r-55mw"
+    ],
+    "score": 100277140
+  },
+  {
+    "ext": "christian-kohler.path-intellisense",
+    "installs": 19651537,
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3jxr-9vmj-r5cp",
+    "all_osv": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ],
+    "score": 98257685
+  },
+  {
+    "ext": "christian-kohler.path-intellisense",
+    "installs": 19651537,
+    "dep": "minimatch",
+    "version": "3.0.4",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-23c5-xmqv-rm74",
+    "all_osv": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj",
+      "GHSA-f8q6-p94x-37v3"
+    ],
+    "score": 98257685
+  },
+  {
+    "ext": "christian-kohler.path-intellisense",
+    "installs": 19651537,
+    "dep": "json5",
+    "version": "2.2.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-9c47-m6qq-7p4h",
+    "all_osv": [
+      "GHSA-9c47-m6qq-7p4h"
+    ],
+    "score": 98257685
+  },
+  {
+    "ext": "batisteo.vscode-django",
+    "installs": 18267232,
+    "dep": "toml",
+    "version": "3.0.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-4qx8-w7c3-pj3p",
+    "all_osv": [
+      "GHSA-4qx8-w7c3-pj3p",
+      "GHSA-82x6-q7mm-w9cf",
+      "GHSA-9j65-hcg3-gc64",
+      "GHSA-9qmh-m7c6-f92p",
+      "GHSA-h895-cgqg-jf52",
+      "GHSA-v5mp-jgw5-2x6j"
+    ],
+    "score": 91336160
+  },
+  {
+    "ext": "formulahendry.code-runner",
+    "installs": 42727107,
+    "dep": "micromatch",
+    "version": "4.0.2",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-952p-6rrq-rcjv",
+    "all_osv": [
+      "GHSA-952p-6rrq-rcjv"
+    ],
+    "score": 85454214
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "on-headers",
+    "version": "1.0.2",
+    "severity": "LOW",
+    "lead_osv": "GHSA-76c9-3jph-rj3q",
+    "all_osv": [
+      "GHSA-76c9-3jph-rj3q"
+    ],
+    "score": 84254316
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "es5-ext",
+    "version": "0.10.53",
+    "severity": "LOW",
+    "lead_osv": "GHSA-4gmj-3p3h-gm8h",
+    "all_osv": [
+      "GHSA-4gmj-3p3h-gm8h"
+    ],
+    "score": 84254316
+  },
+  {
+    "ext": "ritwickdey.LiveServer",
+    "installs": 84254316,
+    "dep": "send",
+    "version": "0.17.2",
+    "severity": "LOW",
+    "lead_osv": "GHSA-m6fv-jmcg-4jfg",
+    "all_osv": [
+      "GHSA-m6fv-jmcg-4jfg"
+    ],
+    "score": 84254316
+  },
+  {
+    "ext": "DotJoshJohnson.xml",
+    "installs": 8170674,
+    "dep": "lodash",
+    "version": "3.10.1",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-jf85-cpcp-j695",
+    "all_osv": [
+      "GHSA-35jh-r3h4-6jhm",
+      "GHSA-4xc9-xhrj-v574",
+      "GHSA-fvqr-27wr-82fm",
+      "GHSA-jf85-cpcp-j695",
+      "GHSA-p6mc-m468-83gw"
+    ],
+    "score": 81706740
+  },
+  {
+    "ext": "DotJoshJohnson.xml",
+    "installs": 8170674,
+    "dep": "xmldom",
+    "version": "0.1.27",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-crh6-fp67-6883",
+    "all_osv": [
+      "GHSA-27p8-2357-5qqv",
+      "GHSA-2v35-w6hq-6mfw",
+      "GHSA-4w3w-2rp5-g8jm",
+      "GHSA-5fg8-2547-mr8q",
+      "GHSA-6gmq-8vp8-gcm6",
+      "GHSA-6h8r-xr42-gp59",
+      "GHSA-8344-3jmq-59r6",
+      "GHSA-965w-775f-mr7g",
+      "GHSA-c7q8-3ch8-vqpv",
+      "GHSA-crh6-fp67-6883",
+      "GHSA-f6ww-3ggp-fr8h",
+      "GHSA-h6q6-9hqw-rwfv",
+      "GHSA-j759-j44w-7fr8",
+      "GHSA-w2rr-34g9-rvrj",
+      "GHSA-wh4c-j3r5-mjhp",
+      "GHSA-x6wf-f3px-wcqx"
+    ],
+    "score": 81706740
+  },
+  {
+    "ext": "DotJoshJohnson.xml",
+    "installs": 8170674,
+    "dep": "minimist",
+    "version": "1.2.0",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-xvch-5gv4-984h",
+    "all_osv": [
+      "GHSA-vh95-rmgr-6w4m",
+      "GHSA-xvch-5gv4-984h"
+    ],
+    "score": 81706740
+  },
+  {
+    "ext": "xdebug.php-debug",
+    "installs": 15805395,
+    "dep": "@xmldom/xmldom",
+    "version": "0.9.10",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-27p8-2357-5qqv",
+    "all_osv": [
+      "GHSA-27p8-2357-5qqv",
+      "GHSA-3px3-54cx-rmw9",
+      "GHSA-4w3w-2rp5-g8jm",
+      "GHSA-6gmq-8vp8-gcm6",
+      "GHSA-6h8r-xr42-gp59",
+      "GHSA-6mj3-qw4j-hgrw",
+      "GHSA-8344-3jmq-59r6",
+      "GHSA-93r5-fhx6-vmg9",
+      "GHSA-965w-775f-mr7g",
+      "GHSA-c7q8-3ch8-vqpv",
+      "GHSA-g53g-w8rj-fmg7",
+      "GHSA-vr34-hp96-76pp",
+      "GHSA-w2rr-34g9-rvrj"
+    ],
+    "score": 79026975
+  },
+  {
+    "ext": "xdebug.php-debug",
+    "installs": 15805395,
+    "dep": "brace-expansion",
+    "version": "5.0.5",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3jxr-9vmj-r5cp",
+    "all_osv": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-jxxr-4gwj-5jf2",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895"
+    ],
+    "score": 79026975
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "lodash",
+    "version": "4.17.21",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-r5fr-rjxr-66jc",
+    "all_osv": [
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "score": 78016730
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "flatted",
+    "version": "3.1.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-25h7-pfq9-p65f",
+    "all_osv": [
+      "GHSA-25h7-pfq9-p65f",
+      "GHSA-rf6f-7fwh-wjgh"
+    ],
+    "score": 78016730
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "js-yaml",
+    "version": "4.1.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-2883-xcg3-v3hh",
+    "all_osv": [
+      "GHSA-2883-xcg3-v3hh",
+      "GHSA-52cp-r559-cp3m",
+      "GHSA-5p4m-2wfm-xmqj",
+      "GHSA-h67p-54hq-rp68",
+      "GHSA-mh29-5h37-fv8m"
+    ],
+    "score": 78016730
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "semver",
+    "version": "7.3.8",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-c2qf-rxjj-qqgw",
+    "all_osv": [
+      "GHSA-c2qf-rxjj-qqgw"
+    ],
+    "score": 78016730
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "js-yaml",
+    "version": "3.14.1",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-2883-xcg3-v3hh",
+    "all_osv": [
+      "GHSA-2883-xcg3-v3hh",
+      "GHSA-52cp-r559-cp3m",
+      "GHSA-5p4m-2wfm-xmqj",
+      "GHSA-h67p-54hq-rp68",
+      "GHSA-mh29-5h37-fv8m"
+    ],
+    "score": 78016730
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "semver",
+    "version": "5.7.1",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-c2qf-rxjj-qqgw",
+    "all_osv": [
+      "GHSA-c2qf-rxjj-qqgw"
+    ],
+    "score": 78016730
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "minimatch",
+    "version": "3.1.2",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-23c5-xmqv-rm74",
+    "all_osv": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj"
+    ],
+    "score": 78016730
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3jxr-9vmj-r5cp",
+    "all_osv": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ],
+    "score": 78016730
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "cross-spawn",
+    "version": "7.0.3",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3xgq-45jj-v275",
+    "all_osv": [
+      "GHSA-3xgq-45jj-v275"
+    ],
+    "score": 78016730
+  },
+  {
+    "ext": "EditorConfig.EditorConfig",
+    "installs": 15369970,
+    "dep": "brace-expansion",
+    "version": "5.0.5",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3jxr-9vmj-r5cp",
+    "all_osv": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-jxxr-4gwj-5jf2",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895"
+    ],
+    "score": 76849850
+  },
+  {
+    "ext": "platformio.platformio-ide",
+    "installs": 7479892,
+    "dep": "tar",
+    "version": "7.4.3",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-23hp-3jrh-7fpw",
+    "all_osv": [
+      "GHSA-23hp-3jrh-7fpw",
+      "GHSA-34x7-hfp2-rc4v",
+      "GHSA-83g3-92jg-28cx",
+      "GHSA-8qq5-rm4j-mr97",
+      "GHSA-8x88-c5mf-7j5w",
+      "GHSA-9ppj-qmqm-q256",
+      "GHSA-gvwx-54wh-qm9j",
+      "GHSA-qffp-2rhf-9h96",
+      "GHSA-r292-9mhp-454m",
+      "GHSA-r6q2-hw4h-h46w",
+      "GHSA-vmf3-w455-68vh",
+      "GHSA-w8wr-v893-vjvp"
+    ],
+    "score": 74798920
+  },
+  {
+    "ext": "CoenraadS.bracket-pair-colorizer-2",
+    "installs": 6766249,
+    "dep": "minimist",
+    "version": "1.2.5",
+    "severity": "CRITICAL",
+    "lead_osv": "GHSA-xvch-5gv4-984h",
+    "all_osv": [
+      "GHSA-xvch-5gv4-984h"
+    ],
+    "score": 67662490
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "extract-zip",
+    "version": "2.0.1",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-7pqw-9j4j-h8q3",
+    "all_osv": [
+      "GHSA-7pqw-9j4j-h8q3",
+      "GHSA-jmr9-qjv8-65gv"
+    ],
+    "score": 67588485
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "path-to-regexp",
+    "version": "6.2.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-9wv6-86v2-598j",
+    "all_osv": [
+      "GHSA-9wv6-86v2-598j"
+    ],
+    "score": 67588485
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "jpeg-js",
+    "version": "0.4.3",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-xvf7-4v9q-58w6",
+    "all_osv": [
+      "GHSA-xvf7-4v9q-58w6"
+    ],
+    "score": 67588485
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "playwright",
+    "version": "1.15.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-7mvr-c777-76hp",
+    "all_osv": [
+      "GHSA-7mvr-c777-76hp"
+    ],
+    "score": 67588485
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3jxr-9vmj-r5cp",
+    "all_osv": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ],
+    "score": 67588485
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "minimatch",
+    "version": "3.0.4",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-23c5-xmqv-rm74",
+    "all_osv": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj",
+      "GHSA-f8q6-p94x-37v3"
+    ],
+    "score": 67588485
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "ws",
+    "version": "7.5.5",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3h5v-q93c-6h6q",
+    "all_osv": [
+      "GHSA-3h5v-q93c-6h6q",
+      "GHSA-96hv-2xvq-fx4p"
+    ],
+    "score": 67588485
+  },
+  {
+    "ext": "cschlosser.doxdocgen",
+    "installs": 12451186,
+    "dep": "moment",
+    "version": "2.29.1",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-8hfj-j24r-96c4",
+    "all_osv": [
+      "GHSA-8hfj-j24r-96c4",
+      "GHSA-wc69-rhjr-hc9g"
+    ],
+    "score": 62255930
+  },
+  {
+    "ext": "HookyQR.beautify",
+    "installs": 10683614,
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3jxr-9vmj-r5cp",
+    "all_osv": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ],
+    "score": 53418070
+  },
+  {
+    "ext": "HookyQR.beautify",
+    "installs": 10683614,
+    "dep": "semver",
+    "version": "5.6.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-c2qf-rxjj-qqgw",
+    "all_osv": [
+      "GHSA-c2qf-rxjj-qqgw"
+    ],
+    "score": 53418070
+  },
+  {
+    "ext": "HookyQR.beautify",
+    "installs": 10683614,
+    "dep": "ini",
+    "version": "1.3.5",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-qqgx-2p2h-9c37",
+    "all_osv": [
+      "GHSA-qqgx-2p2h-9c37"
+    ],
+    "score": 53418070
+  },
+  {
+    "ext": "HookyQR.beautify",
+    "installs": 10683614,
+    "dep": "minimatch",
+    "version": "3.0.4",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-23c5-xmqv-rm74",
+    "all_osv": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj",
+      "GHSA-f8q6-p94x-37v3"
+    ],
+    "score": 53418070
+  },
+  {
+    "ext": "Zignd.html-css-class-completion",
+    "installs": 10027714,
+    "dep": "lodash",
+    "version": "4.17.20",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-35jh-r3h4-6jhm",
+    "all_osv": [
+      "GHSA-29mw-wpgm-hmr9",
+      "GHSA-35jh-r3h4-6jhm",
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "score": 50138570
+  },
+  {
+    "ext": "Zignd.html-css-class-completion",
+    "installs": 10027714,
+    "dep": "qs",
+    "version": "6.5.2",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-hrpp-h998-j3pp",
+    "all_osv": [
+      "GHSA-4mjr-xmp4-gh2g",
+      "GHSA-6rw7-vpxm-498p",
+      "GHSA-hrpp-h998-j3pp"
+    ],
+    "score": 50138570
+  },
+  {
+    "ext": "Zignd.html-css-class-completion",
+    "installs": 10027714,
+    "dep": "decode-uri-component",
+    "version": "0.2.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-qr28-fpjm-wq7f",
+    "all_osv": [
+      "GHSA-qr28-fpjm-wq7f",
+      "GHSA-vcc3-ghjq-m6fr",
+      "GHSA-w573-4hg7-7wgq"
+    ],
+    "score": 50138570
+  },
+  {
+    "ext": "naumovs.color-highlight",
+    "installs": 9742813,
+    "dep": "brace-expansion",
+    "version": "1.1.11",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3jxr-9vmj-r5cp",
+    "all_osv": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ],
+    "score": 48714065
+  },
+  {
+    "ext": "naumovs.color-highlight",
+    "installs": 9742813,
+    "dep": "minimatch",
+    "version": "3.1.2",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-23c5-xmqv-rm74",
+    "all_osv": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj"
+    ],
+    "score": 48714065
+  },
+  {
+    "ext": "DotJoshJohnson.xml",
+    "installs": 8170674,
+    "dep": "semver",
+    "version": "5.5.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-c2qf-rxjj-qqgw",
+    "all_osv": [
+      "GHSA-c2qf-rxjj-qqgw"
+    ],
+    "score": 40853370
+  },
+  {
+    "ext": "DotJoshJohnson.xml",
+    "installs": 8170674,
+    "dep": "ini",
+    "version": "1.3.5",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-qqgx-2p2h-9c37",
+    "all_osv": [
+      "GHSA-qqgx-2p2h-9c37"
+    ],
+    "score": 40853370
+  },
+  {
+    "ext": "DotJoshJohnson.xml",
+    "installs": 8170674,
+    "dep": "cross-spawn",
+    "version": "5.1.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3xgq-45jj-v275",
+    "all_osv": [
+      "GHSA-3xgq-45jj-v275"
+    ],
+    "score": 40853370
+  },
+  {
+    "ext": "DotJoshJohnson.xml",
+    "installs": 8170674,
+    "dep": "ansi-regex",
+    "version": "3.0.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-93q8-gq69-wqmw",
+    "all_osv": [
+      "GHSA-93q8-gq69-wqmw"
+    ],
+    "score": 40853370
+  },
+  {
+    "ext": "DotJoshJohnson.xml",
+    "installs": 8170674,
+    "dep": "dot-prop",
+    "version": "4.2.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-ff7x-qrg7-qggm",
+    "all_osv": [
+      "GHSA-ff7x-qrg7-qggm"
+    ],
+    "score": 40853370
+  },
+  {
+    "ext": "platformio.platformio-ide",
+    "installs": 7479892,
+    "dep": "underscore",
+    "version": "1.13.7",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-qpx9-hpmf-5gmw",
+    "all_osv": [
+      "GHSA-qpx9-hpmf-5gmw"
+    ],
+    "score": 37399460
+  },
+  {
+    "ext": "platformio.platformio-ide",
+    "installs": 7479892,
+    "dep": "brace-expansion",
+    "version": "2.0.1",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3jxr-9vmj-r5cp",
+    "all_osv": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ],
+    "score": 37399460
+  },
+  {
+    "ext": "platformio.platformio-ide",
+    "installs": 7479892,
+    "dep": "minimatch",
+    "version": "9.0.5",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-23c5-xmqv-rm74",
+    "all_osv": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj",
+      "GHSA-g3hv-75wg-m249"
+    ],
+    "score": 37399460
+  },
+  {
+    "ext": "platformio.platformio-ide",
+    "installs": 7479892,
+    "dep": "glob",
+    "version": "10.4.5",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-5j98-mcp5-4vw2",
+    "all_osv": [
+      "GHSA-3g3m-2fjr-6pw4",
+      "GHSA-5j98-mcp5-4vw2"
+    ],
+    "score": 37399460
+  },
+  {
+    "ext": "platformio.platformio-ide",
+    "installs": 7479892,
+    "dep": "minimatch",
+    "version": "3.1.2",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-23c5-xmqv-rm74",
+    "all_osv": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj"
+    ],
+    "score": 37399460
+  },
+  {
+    "ext": "platformio.platformio-ide",
+    "installs": 7479892,
+    "dep": "ws",
+    "version": "8.18.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-96hv-2xvq-fx4p",
+    "all_osv": [
+      "GHSA-58qx-3vcg-4xpx",
+      "GHSA-96hv-2xvq-fx4p"
+    ],
+    "score": 37399460
+  },
+  {
+    "ext": "CoenraadS.bracket-pair-colorizer-2",
+    "installs": 6766249,
+    "dep": "json5",
+    "version": "2.2.0",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-9c47-m6qq-7p4h",
+    "all_osv": [
+      "GHSA-9c47-m6qq-7p4h"
+    ],
+    "score": 33831245
+  },
+  {
+    "ext": "Oracle.oracle-java",
+    "installs": 6696727,
+    "dep": "brace-expansion",
+    "version": "2.1.4",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-6j4f-fj2g-mc7p",
+    "all_osv": [
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7"
+    ],
+    "score": 33483635
+  },
+  {
+    "ext": "xdebug.php-debug",
+    "installs": 15805395,
+    "dep": "moment",
+    "version": "2.30.1",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-4p3w-j4w9-5jqw",
+    "all_osv": [
+      "GHSA-4p3w-j4w9-5jqw"
+    ],
+    "score": 31610790
+  },
+  {
+    "ext": "xdebug.php-debug",
+    "installs": 15805395,
+    "dep": "minimatch",
+    "version": "10.2.3",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-g3hv-75wg-m249",
+    "all_osv": [
+      "GHSA-g3hv-75wg-m249"
+    ],
+    "score": 31610790
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "word-wrap",
+    "version": "1.2.3",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-j8xg-fqg3-53r7",
+    "all_osv": [
+      "GHSA-j8xg-fqg3-53r7"
+    ],
+    "score": 31206692
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "postcss-selector-parser",
+    "version": "6.0.11",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-rj75-hqrm-r3gf",
+    "all_osv": [
+      "GHSA-rj75-hqrm-r3gf"
+    ],
+    "score": 31206692
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "ajv",
+    "version": "6.12.4",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-2g4f-4pwh-qvx6",
+    "all_osv": [
+      "GHSA-2g4f-4pwh-qvx6"
+    ],
+    "score": 31206692
+  },
+  {
+    "ext": "EditorConfig.EditorConfig",
+    "installs": 15369970,
+    "dep": "minimatch",
+    "version": "10.2.5",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-g3hv-75wg-m249",
+    "all_osv": [
+      "GHSA-g3hv-75wg-m249"
+    ],
+    "score": 30739940
+  },
+  {
+    "ext": "zobo.php-intellisense",
+    "installs": 6140258,
+    "dep": "brace-expansion",
+    "version": "2.0.1",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3jxr-9vmj-r5cp",
+    "all_osv": [
+      "GHSA-3jxr-9vmj-r5cp",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-f886-m6hf-6m8v",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v6h2-p8h4-qcjw"
+    ],
+    "score": 30701290
+  },
+  {
+    "ext": "zobo.php-intellisense",
+    "installs": 6140258,
+    "dep": "minimatch",
+    "version": "5.1.6",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-23c5-xmqv-rm74",
+    "all_osv": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj"
+    ],
+    "score": 30701290
+  },
+  {
+    "ext": "zobo.php-intellisense",
+    "installs": 6140258,
+    "dep": "cross-spawn",
+    "version": "7.0.3",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-3xgq-45jj-v275",
+    "all_osv": [
+      "GHSA-3xgq-45jj-v275"
+    ],
+    "score": 30701290
+  },
+  {
+    "ext": "steoates.autoimport",
+    "installs": 5517213,
+    "dep": "lodash",
+    "version": "4.17.21",
+    "severity": "HIGH",
+    "lead_osv": "GHSA-r5fr-rjxr-66jc",
+    "all_osv": [
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "score": 27586065
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "morgan",
+    "version": "1.10.0",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-4vj7-5mj6-jm8m",
+    "all_osv": [
+      "GHSA-4vj7-5mj6-jm8m",
+      "GHSA-9f6g-j8ch-79g4",
+      "GHSA-jxfw-x594-9x9m"
+    ],
+    "score": 27035394
+  },
+  {
+    "ext": "Zignd.html-css-class-completion",
+    "installs": 10027714,
+    "dep": "request",
+    "version": "2.88.2",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-p8p7-x288-28g6",
+    "all_osv": [
+      "GHSA-p8p7-x288-28g6"
+    ],
+    "score": 20055428
+  },
+  {
+    "ext": "Zignd.html-css-class-completion",
+    "installs": 10027714,
+    "dep": "uuid",
+    "version": "3.4.0",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-w5hq-g745-h8pq",
+    "all_osv": [
+      "GHSA-w5hq-g745-h8pq"
+    ],
+    "score": 20055428
+  },
+  {
+    "ext": "Zignd.html-css-class-completion",
+    "installs": 10027714,
+    "dep": "tough-cookie",
+    "version": "2.5.0",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-72xf-g2v4-qvf3",
+    "all_osv": [
+      "GHSA-72xf-g2v4-qvf3"
+    ],
+    "score": 20055428
+  },
+  {
+    "ext": "Zignd.html-css-class-completion",
+    "installs": 10027714,
+    "dep": "ajv",
+    "version": "6.12.6",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-2g4f-4pwh-qvx6",
+    "all_osv": [
+      "GHSA-2g4f-4pwh-qvx6"
+    ],
+    "score": 20055428
+  },
+  {
+    "ext": "naumovs.color-highlight",
+    "installs": 9742813,
+    "dep": "@babel/runtime",
+    "version": "7.24.0",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-968p-4wvh-cqc8",
+    "all_osv": [
+      "GHSA-968p-4wvh-cqc8"
+    ],
+    "score": 19485626
+  },
+  {
+    "ext": "DotJoshJohnson.xml",
+    "installs": 8170674,
+    "dep": "got",
+    "version": "6.7.1",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-pfrx-2q88-qq97",
+    "all_osv": [
+      "GHSA-pfrx-2q88-qq97"
+    ],
+    "score": 16341348
+  },
+  {
+    "ext": "octref.vetur",
+    "installs": 15603346,
+    "dep": "diff",
+    "version": "4.0.2",
+    "severity": "LOW",
+    "lead_osv": "GHSA-73rr-hh4g-fpgx",
+    "all_osv": [
+      "GHSA-73rr-hh4g-fpgx"
+    ],
+    "score": 15603346
+  },
+  {
+    "ext": "platformio.platformio-ide",
+    "installs": 7479892,
+    "dep": "xml2js",
+    "version": "0.4.23",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-776f-qx25-q3cc",
+    "all_osv": [
+      "GHSA-776f-qx25-q3cc"
+    ],
+    "score": 14959784
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "on-headers",
+    "version": "1.0.2",
+    "severity": "LOW",
+    "lead_osv": "GHSA-76c9-3jph-rj3q",
+    "all_osv": [
+      "GHSA-76c9-3jph-rj3q"
+    ],
+    "score": 13517697
+  },
+  {
+    "ext": "oderwat.indent-rainbow",
+    "installs": 13517697,
+    "dep": "@tootallnate/once",
+    "version": "1.1.2",
+    "severity": "LOW",
+    "lead_osv": "GHSA-vpq2-c234-7xj6",
+    "all_osv": [
+      "GHSA-vpq2-c234-7xj6"
+    ],
+    "score": 13517697
+  },
+  {
+    "ext": "Oracle.oracle-java",
+    "installs": 6696727,
+    "dep": "fast-uri",
+    "version": "3.1.8",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-w74x-v6f9-j3xg",
+    "all_osv": [
+      "GHSA-333x-w4r6-6crp",
+      "GHSA-w74x-v6f9-j3xg",
+      "GHSA-wjr9-j795-jxcr",
+      "GHSA-xhq7-xmqj-769h"
+    ],
+    "score": 13393454
+  },
+  {
+    "ext": "James-Yu.latex-workshop",
+    "installs": 5887595,
+    "dep": "minimatch",
+    "version": "10.2.5",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-g3hv-75wg-m249",
+    "all_osv": [
+      "GHSA-g3hv-75wg-m249"
+    ],
+    "score": 11775190
+  },
+  {
+    "ext": "James-Yu.latex-workshop",
+    "installs": 5887595,
+    "dep": "glob",
+    "version": "13.0.6",
+    "severity": "MODERATE",
+    "lead_osv": "GHSA-3g3m-2fjr-6pw4",
+    "all_osv": [
+      "GHSA-3g3m-2fjr-6pw4"
+    ],
+    "score": 11775190
+  }
+]

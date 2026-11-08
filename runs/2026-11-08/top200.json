@@ -1,0 +1,1802 @@
+[
+  {
+    "publisher": "ms-python",
+    "name": "python",
+    "display": "Python",
+    "installs": 244587027,
+    "version": "2026.11.2026110601",
+    "lastUpdated": "2026-11-06T14:02:26.257Z",
+    "repo": "https://github.com/Microsoft/vscode-python.git"
+  },
+  {
+    "publisher": "ms-python",
+    "name": "vscode-pylance",
+    "display": "Pylance",
+    "installs": 211220409,
+    "version": "2026.4.101",
+    "lastUpdated": "2026-10-16T00:57:22.42Z",
+    "repo": "https://github.com/microsoft/pylance-release.git"
+  },
+  {
+    "publisher": "ms-python",
+    "name": "debugpy",
+    "display": "Python Debugger",
+    "installs": 149967801,
+    "version": "2026.7.13061010",
+    "lastUpdated": "2026-11-02T11:08:24.07Z",
+    "repo": "https://github.com/microsoft/vscode-python-debugger.git"
+  },
+  {
+    "publisher": "ms-toolsai",
+    "name": "jupyter",
+    "display": "Jupyter",
+    "installs": 111171540,
+    "version": "2026.6.2026071501",
+    "lastUpdated": "2026-07-15T10:05:18.373Z",
+    "repo": "https://github.com/Microsoft/vscode-jupyter.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "cpptools",
+    "display": "C/C++",
+    "installs": 106759673,
+    "version": "1.35.6",
+    "lastUpdated": "2026-11-02T20:02:14.937Z",
+    "repo": "https://github.com/Microsoft/vscode-cpptools.git"
+  },
+  {
+    "publisher": "ms-toolsai",
+    "name": "jupyter-keymap",
+    "display": "Jupyter Keymap",
+    "installs": 90742298,
+    "version": "1.1.2",
+    "lastUpdated": "2023-06-05T17:53:31.993Z",
+    "repo": "https://github.com/Microsoft/vscode-jupyter-keymap.git"
+  },
+  {
+    "publisher": "ms-toolsai",
+    "name": "jupyter-renderers",
+    "display": "Jupyter Notebook Renderers",
+    "installs": 89939685,
+    "version": "1.3.2025062701",
+    "lastUpdated": "2025-06-27T07:16:12.467Z",
+    "repo": "https://github.com/Microsoft/vscode-notebook-renderers.git"
+  },
+  {
+    "publisher": "ritwickdey",
+    "name": "LiveServer",
+    "display": "Live Server",
+    "installs": 84263379,
+    "version": "5.7.10",
+    "lastUpdated": "2026-02-27T09:33:05.19Z",
+    "repo": "https://github.com/ritwickdey/vscode-live-server.git"
+  },
+  {
+    "publisher": "GitHub",
+    "name": "copilot-chat",
+    "display": "GitHub Copilot Chat",
+    "installs": 79190750,
+    "version": "0.48.1",
+    "lastUpdated": "2026-05-15T22:33:59.763Z",
+    "repo": "https://github.com/microsoft/vscode-copilot-chat.git"
+  },
+  {
+    "publisher": "GitHub",
+    "name": "copilot",
+    "display": "GitHub Copilot",
+    "installs": 74875519,
+    "version": "1.388.0",
+    "lastUpdated": "2025-10-24T17:25:13.55Z",
+    "repo": null
+  },
+  {
+    "publisher": "esbenp",
+    "name": "prettier-vscode",
+    "display": "Prettier - Code formatter",
+    "installs": 72832867,
+    "version": "12.4.0",
+    "lastUpdated": "2026-03-16T19:18:07.213Z",
+    "repo": "https://github.com/prettier/prettier-vscode.git"
+  },
+  {
+    "publisher": "ms-toolsai",
+    "name": "vscode-jupyter-cell-tags",
+    "display": "Jupyter Cell Tags",
+    "installs": 71227512,
+    "version": "0.1.9",
+    "lastUpdated": "2024-04-03T01:41:26.07Z",
+    "repo": "https://github.com/Microsoft/vscode-jupyter-cell-tags.git"
+  },
+  {
+    "publisher": "ms-toolsai",
+    "name": "vscode-jupyter-slideshow",
+    "display": "Jupyter Slide Show",
+    "installs": 71152697,
+    "version": "0.1.6",
+    "lastUpdated": "2024-04-03T01:45:59.507Z",
+    "repo": "https://github.com/Microsoft/vscode-jupyter-slideshow.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "cmake-tools",
+    "display": "CMake Tools",
+    "installs": 64891835,
+    "version": "1.25.7",
+    "lastUpdated": "2026-11-06T19:31:35.147Z",
+    "repo": "https://github.com/microsoft/vscode-cmake-tools.git"
+  },
+  {
+    "publisher": "ms-python",
+    "name": "vscode-python-envs",
+    "display": "Python Environments",
+    "installs": 64304512,
+    "version": "1.43.2026110601",
+    "lastUpdated": "2026-11-06T10:59:38.017Z",
+    "repo": "https://github.com/microsoft/vscode-python-environments.git"
+  },
+  {
+    "publisher": "VisualStudioExptTeam",
+    "name": "vscodeintellicode",
+    "display": "IntelliCode",
+    "installs": 62680732,
+    "version": "1.3.2",
+    "lastUpdated": "2024-10-23T23:47:03.837Z",
+    "repo": "https://github.com/MicrosoftDocs/intellicode.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "cpptools-themes",
+    "display": "C/C++ Themes",
+    "installs": 61408626,
+    "version": "2.0.0",
+    "lastUpdated": "2022-10-24T21:51:14.927Z",
+    "repo": "https://github.com/Microsoft/vscode-cpptools.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "cpptools-extension-pack",
+    "display": "C/C++ Extension Pack",
+    "installs": 59507702,
+    "version": "1.5.1",
+    "lastUpdated": "2026-02-19T22:41:00.21Z",
+    "repo": "https://github.com/microsoft/vscode-cpptools.git"
+  },
+  {
+    "publisher": "redhat",
+    "name": "java",
+    "display": "Language Support for Java(TM) by Red Hat",
+    "installs": 58504687,
+    "version": "1.59.2026110708",
+    "lastUpdated": "2026-11-07T08:30:02.827Z",
+    "repo": "https://github.com/redhat-developer/vscode-java.git"
+  },
+  {
+    "publisher": "MS-CEINTL",
+    "name": "vscode-language-pack-zh-hans",
+    "display": "Chinese (Simplified) (\u7b80\u4f53\u4e2d\u6587) Language Pack for Visual Studio Code",
+    "installs": 57026593,
+    "version": "1.131.2026090407",
+    "lastUpdated": "2026-09-04T07:58:37.973Z",
+    "repo": "https://github.com/Microsoft/vscode-loc.git"
+  },
+  {
+    "publisher": "eamodio",
+    "name": "gitlens",
+    "display": "GitLens \u2014 Git supercharged",
+    "installs": 53808466,
+    "version": "2026.11.80408",
+    "lastUpdated": "2026-11-08T09:16:54.717Z",
+    "repo": "https://github.com/gitkraken/vscode-gitlens.git"
+  },
+  {
+    "publisher": "dbaeumer",
+    "name": "vscode-eslint",
+    "display": "ESLint",
+    "installs": 53737446,
+    "version": "3.0.34",
+    "lastUpdated": "2026-07-16T12:04:19.623Z",
+    "repo": "https://github.com/Microsoft/vscode-eslint.git"
+  },
+  {
+    "publisher": "vscjava",
+    "name": "vscode-java-debug",
+    "display": "Debugger for Java",
+    "installs": 53709151,
+    "version": "0.60.2026110205",
+    "lastUpdated": "2026-11-02T05:50:35.577Z",
+    "repo": "https://github.com/Microsoft/vscode-java-debug.git"
+  },
+  {
+    "publisher": "ms-azuretools",
+    "name": "vscode-docker",
+    "display": "Docker",
+    "installs": 53242666,
+    "version": "2.0.0",
+    "lastUpdated": "2025-05-28T19:12:39.137Z",
+    "repo": "https://github.com/microsoft/vscode-docker.git"
+  },
+  {
+    "publisher": "vscjava",
+    "name": "vscode-maven",
+    "display": "Maven for Java",
+    "installs": 49749550,
+    "version": "0.46.0",
+    "lastUpdated": "2026-10-08T04:56:17.333Z",
+    "repo": "https://github.com/Microsoft/vscode-maven.git"
+  },
+  {
+    "publisher": "vscjava",
+    "name": "vscode-java-test",
+    "display": "Test Runner for Java",
+    "installs": 48319917,
+    "version": "0.47.0",
+    "lastUpdated": "2026-10-14T11:31:54.36Z",
+    "repo": "https://github.com/Microsoft/vscode-java-test.git"
+  },
+  {
+    "publisher": "vscjava",
+    "name": "vscode-java-dependency",
+    "display": "Project Manager for Java",
+    "installs": 47854112,
+    "version": "0.27.2026092100",
+    "lastUpdated": "2026-09-21T03:47:21.727Z",
+    "repo": "https://github.com/Microsoft/vscode-java-dependency.git"
+  },
+  {
+    "publisher": "vscjava",
+    "name": "vscode-java-pack",
+    "display": "Extension Pack for Java",
+    "installs": 47490726,
+    "version": "0.31.2026101207",
+    "lastUpdated": "2026-10-12T08:00:59.84Z",
+    "repo": "https://github.com/Microsoft/vscode-java-pack.git"
+  },
+  {
+    "publisher": "VisualStudioExptTeam",
+    "name": "intellicode-api-usage-examples",
+    "display": "IntelliCode API Usage Examples",
+    "installs": 47149872,
+    "version": "0.2.9",
+    "lastUpdated": "2024-10-23T23:35:15.667Z",
+    "repo": "https://github.com/MicrosoftDocs/intellicode.git"
+  },
+  {
+    "publisher": "twxs",
+    "name": "cmake",
+    "display": "CMake",
+    "installs": 46853348,
+    "version": "0.0.17",
+    "lastUpdated": "2017-03-06T23:12:02.523Z",
+    "repo": "https://github.com/twxs/vs.language.cmake.git"
+  },
+  {
+    "publisher": "ms-dotnettools",
+    "name": "csharp",
+    "display": "C#",
+    "installs": 44254619,
+    "version": "11.7.18",
+    "lastUpdated": "2026-10-28T17:30:07.73Z",
+    "repo": "https://github.com/dotnet/vscode-csharp.git"
+  },
+  {
+    "publisher": "formulahendry",
+    "name": "code-runner",
+    "display": "Code Runner",
+    "installs": 42731771,
+    "version": "0.12.2",
+    "lastUpdated": "2024-04-05T09:29:47.39Z",
+    "repo": "https://github.com/formulahendry/vscode-code-runner.git"
+  },
+  {
+    "publisher": "ms-vscode-remote",
+    "name": "remote-containers",
+    "display": "Dev Containers",
+    "installs": 42628778,
+    "version": "0.472.0",
+    "lastUpdated": "2026-11-06T17:37:59.11Z",
+    "repo": "https://github.com/Microsoft/vscode-remote-release.git"
+  },
+  {
+    "publisher": "ms-vscode-remote",
+    "name": "remote-wsl",
+    "display": "WSL",
+    "installs": 41241099,
+    "version": "1.104.7",
+    "lastUpdated": "2026-10-28T22:23:09.93Z",
+    "repo": "https://github.com/Microsoft/vscode-remote-release.git"
+  },
+  {
+    "publisher": "ms-vscode-remote",
+    "name": "remote-ssh",
+    "display": "Remote - SSH",
+    "installs": 38532784,
+    "version": "0.129.2026100915",
+    "lastUpdated": "2026-10-09T15:27:37.92Z",
+    "repo": "https://github.com/Microsoft/vscode-remote-release.git"
+  },
+  {
+    "publisher": "GitHub",
+    "name": "vscode-pull-request-github",
+    "display": "GitHub Pull Requests",
+    "installs": 37383194,
+    "version": "0.177.2026110604",
+    "lastUpdated": "2026-11-06T04:25:37.723Z",
+    "repo": "https://github.com/Microsoft/vscode-pull-request-github.git"
+  },
+  {
+    "publisher": "ms-vscode-remote",
+    "name": "remote-ssh-edit",
+    "display": "Remote - SSH: Editing Configuration Files",
+    "installs": 36346091,
+    "version": "0.87.0",
+    "lastUpdated": "2024-10-01T21:16:18.36Z",
+    "repo": "https://github.com/Microsoft/vscode-remote-release.git"
+  },
+  {
+    "publisher": "PKief",
+    "name": "material-icon-theme",
+    "display": "Material Icon Theme",
+    "installs": 36170170,
+    "version": "5.40.0",
+    "lastUpdated": "2026-10-26T12:37:54.383Z",
+    "repo": "https://github.com/material-extensions/vscode-material-icon-theme.git"
+  },
+  {
+    "publisher": "ms-dotnettools",
+    "name": "vscode-dotnet-runtime",
+    "display": ".NET Install Tool",
+    "installs": 31209071,
+    "version": "3.2.0",
+    "lastUpdated": "2026-09-22T17:11:33.357Z",
+    "repo": "https://github.com/dotnet/vscode-dotnet-runtime.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "remote-explorer",
+    "display": "Remote Explorer",
+    "installs": 30908546,
+    "version": "0.6.2026100809",
+    "lastUpdated": "2026-10-08T09:31:43.057Z",
+    "repo": "https://github.com/Microsoft/vscode-remote-release.git"
+  },
+  {
+    "publisher": "ecmel",
+    "name": "vscode-html-css",
+    "display": "HTML CSS Support",
+    "installs": 30067010,
+    "version": "2.0.14",
+    "lastUpdated": "2026-02-12T12:00:50.113Z",
+    "repo": "https://github.com/ecmel/vscode-html-css.git"
+  },
+  {
+    "publisher": "redhat",
+    "name": "vscode-yaml",
+    "display": "YAML",
+    "installs": 29914869,
+    "version": "2.1.2026110608",
+    "lastUpdated": "2026-11-06T08:17:42.553Z",
+    "repo": "https://github.com/redhat-developer/vscode-yaml.git"
+  },
+  {
+    "publisher": "anthropic",
+    "name": "claude-code",
+    "display": "Claude Code for VS Code",
+    "installs": 29771484,
+    "version": "2.1.319",
+    "lastUpdated": "2026-11-06T17:16:10.403Z",
+    "repo": null
+  },
+  {
+    "publisher": "vscjava",
+    "name": "vscode-gradle",
+    "display": "Gradle for Java",
+    "installs": 29552273,
+    "version": "3.18.2026102002",
+    "lastUpdated": "2026-10-20T02:58:12.96Z",
+    "repo": "https://github.com/microsoft/vscode-gradle.git"
+  },
+  {
+    "publisher": "formulahendry",
+    "name": "auto-rename-tag",
+    "display": "Auto Rename Tag",
+    "installs": 26232722,
+    "version": "0.1.10",
+    "lastUpdated": "2022-02-08T11:22:48.717Z",
+    "repo": "https://github.com/formulahendry/vscode-auto-rename-tag.git"
+  },
+  {
+    "publisher": "ms-python",
+    "name": "isort",
+    "display": "isort",
+    "installs": 25978610,
+    "version": "2026.7.13101008",
+    "lastUpdated": "2026-11-06T10:42:31.417Z",
+    "repo": "https://github.com/microsoft/vscode-isort.git"
+  },
+  {
+    "publisher": "mechatroner",
+    "name": "rainbow-csv",
+    "display": "Rainbow CSV",
+    "installs": 25011247,
+    "version": "3.24.1",
+    "lastUpdated": "2026-01-17T02:55:42.627Z",
+    "repo": "https://github.com/mechatroner/vscode_rainbow_csv.git"
+  },
+  {
+    "publisher": "vscode-icons-team",
+    "name": "vscode-icons",
+    "display": "vscode-icons",
+    "installs": 24801261,
+    "version": "13.0.0",
+    "lastUpdated": "2026-09-29T20:23:17.6Z",
+    "repo": "https://github.com/vscode-icons/vscode-icons.git"
+  },
+  {
+    "publisher": "MS-vsliveshare",
+    "name": "vsliveshare",
+    "display": "Live Share",
+    "installs": 24420822,
+    "version": "1.1.122",
+    "lastUpdated": "2026-04-07T02:59:10.833Z",
+    "repo": "https://github.com/MicrosoftDocs/live-share"
+  },
+  {
+    "publisher": "WakaTime",
+    "name": "vscode-wakatime",
+    "display": "WakaTime",
+    "installs": 23108348,
+    "version": "30.2.1",
+    "lastUpdated": "2026-06-12T14:54:20.69Z",
+    "repo": "https://github.com/wakatime/vscode-wakatime.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "PowerShell",
+    "display": "PowerShell",
+    "installs": 22678643,
+    "version": "2026.1.2",
+    "lastUpdated": "2026-06-25T23:07:58.18Z",
+    "repo": "https://github.com/PowerShell/vscode-powershell.git"
+  },
+  {
+    "publisher": "xabikos",
+    "name": "JavaScriptSnippets",
+    "display": "JavaScript (ES6) code snippets",
+    "installs": 22211569,
+    "version": "1.8.0",
+    "lastUpdated": "2020-04-21T17:23:57.66Z",
+    "repo": "https://github.com/xabikos/vscode-javascript"
+  },
+  {
+    "publisher": "GitHub",
+    "name": "github-vscode-theme",
+    "display": "GitHub Theme",
+    "installs": 20577801,
+    "version": "6.3.5",
+    "lastUpdated": "2024-10-03T05:36:07.743Z",
+    "repo": "https://github.com/primer/github-vscode-theme.git"
+  },
+  {
+    "publisher": "golang",
+    "name": "Go",
+    "display": "Go",
+    "installs": 20099285,
+    "version": "0.59.0",
+    "lastUpdated": "2026-10-22T15:44:59.093Z",
+    "repo": "https://github.com/golang/vscode-go.git"
+  },
+  {
+    "publisher": "christian-kohler",
+    "name": "path-intellisense",
+    "display": "Path Intellisense",
+    "installs": 19652895,
+    "version": "2.10.0",
+    "lastUpdated": "2024-11-29T22:30:28.09Z",
+    "repo": "https://github.com/ChristianKohler/PathIntellisense.git"
+  },
+  {
+    "publisher": "ms-azuretools",
+    "name": "vscode-containers",
+    "display": "Container Tools",
+    "installs": 19499563,
+    "version": "2.5.3",
+    "lastUpdated": "2026-10-19T14:14:02.957Z",
+    "repo": "https://github.com/microsoft/vscode-containers.git"
+  },
+  {
+    "publisher": "KevinRose",
+    "name": "vsc-python-indent",
+    "display": "Python Indent",
+    "installs": 19099157,
+    "version": "1.21.0",
+    "lastUpdated": "2025-02-26T23:03:42.01Z",
+    "repo": "https://github.com/kbrose/vsc-python-indent.git"
+  },
+  {
+    "publisher": "ms-dotnettools",
+    "name": "csdevkit",
+    "display": "C# Dev Kit",
+    "installs": 18716445,
+    "version": "11.9.39",
+    "lastUpdated": "2026-10-28T17:40:06.097Z",
+    "repo": " https://devdiv.visualstudio.com/DevDiv/_git/vs-green"
+  },
+  {
+    "publisher": "streetsidesoftware",
+    "name": "code-spell-checker",
+    "display": "Code Spell Checker",
+    "installs": 18593153,
+    "version": "4.10.0",
+    "lastUpdated": "2026-10-15T06:24:24.82Z",
+    "repo": "https://github.com/streetsidesoftware/vscode-spell-checker.git"
+  },
+  {
+    "publisher": "batisteo",
+    "name": "vscode-django",
+    "display": "Django",
+    "installs": 18268611,
+    "version": "1.15.0",
+    "lastUpdated": "2023-12-27T16:25:34.407Z",
+    "repo": "https://github.com/vscode-django/vscode-django.git"
+  },
+  {
+    "publisher": "bmewburn",
+    "name": "vscode-intelephense-client",
+    "display": "PHP Intelephense",
+    "installs": 18175187,
+    "version": "1.18.5",
+    "lastUpdated": "2026-06-21T00:51:36.067Z",
+    "repo": "https://github.com/bmewburn/vscode-intelephense.git"
+  },
+  {
+    "publisher": "dsznajder",
+    "name": "es7-react-js-snippets",
+    "display": "ES7+ React/Redux/React-Native snippets",
+    "installs": 17877046,
+    "version": "4.4.3",
+    "lastUpdated": "2022-02-18T13:12:52.393Z",
+    "repo": "https://github.com/dsznajder/vscode-es7-javascript-react-snippets.git"
+  },
+  {
+    "publisher": "njpwerner",
+    "name": "autodocstring",
+    "display": "autoDocstring - Python Docstring Generator",
+    "installs": 17865859,
+    "version": "0.6.1",
+    "lastUpdated": "2022-02-15T16:02:27.243Z",
+    "repo": "https://github.com/NilsJPWerner/autoDocstring.git"
+  },
+  {
+    "publisher": "formulahendry",
+    "name": "auto-close-tag",
+    "display": "Auto Close Tag",
+    "installs": 17534136,
+    "version": "0.5.15",
+    "lastUpdated": "2023-12-19T04:21:57.027Z",
+    "repo": "https://github.com/formulahendry/vscode-auto-close-tag.git"
+  },
+  {
+    "publisher": "donjayamanne",
+    "name": "githistory",
+    "display": "Git History",
+    "installs": 17517631,
+    "version": "0.6.20",
+    "lastUpdated": "2023-03-05T09:33:58.38Z",
+    "repo": "https://github.com/DonJayamanne/gitHistoryVSCode.git"
+  },
+  {
+    "publisher": "openai",
+    "name": "chatgpt",
+    "display": "Codex \u2013 OpenAI\u2019s coding agent",
+    "installs": 16539262,
+    "version": "26.51021.22027",
+    "lastUpdated": "2026-10-23T21:27:06.487Z",
+    "repo": null
+  },
+  {
+    "publisher": "Dart-Code",
+    "name": "dart-code",
+    "display": "Dart",
+    "installs": 16212013,
+    "version": "3.147.20261029",
+    "lastUpdated": "2026-10-29T12:26:29.83Z",
+    "repo": "https://github.com/Dart-Code/Dart-Code.git"
+  },
+  {
+    "publisher": "wholroyd",
+    "name": "jinja",
+    "display": "Jinja",
+    "installs": 15953823,
+    "version": "0.0.10",
+    "lastUpdated": "2026-09-27T01:53:49.44Z",
+    "repo": "https://github.com/wholroyd/vscode-jinja.git"
+  },
+  {
+    "publisher": "MS-CEINTL",
+    "name": "vscode-language-pack-ja",
+    "display": "Japanese Language Pack for Visual Studio Code",
+    "installs": 15880263,
+    "version": "1.131.2026090407",
+    "lastUpdated": "2026-09-04T07:54:54.64Z",
+    "repo": "https://github.com/Microsoft/vscode-loc.git"
+  },
+  {
+    "publisher": "xdebug",
+    "name": "php-debug",
+    "display": "PHP Debug",
+    "installs": 15806082,
+    "version": "1.40.2",
+    "lastUpdated": "2026-09-18T11:52:13.25Z",
+    "repo": "https://github.com/xdebug/vscode-php-debug.git"
+  },
+  {
+    "publisher": "mhutchie",
+    "name": "git-graph",
+    "display": "Git Graph",
+    "installs": 15676135,
+    "version": "1.30.0",
+    "lastUpdated": "2021-04-05T03:44:22.23Z",
+    "repo": "https://github.com/mhutchie/vscode-git-graph.git"
+  },
+  {
+    "publisher": "octref",
+    "name": "vetur",
+    "display": "Vetur",
+    "installs": 15603527,
+    "version": "0.37.3",
+    "lastUpdated": "2023-02-23T05:33:12.263Z",
+    "repo": "https://github.com/vuejs/vetur.git"
+  },
+  {
+    "publisher": "EditorConfig",
+    "name": "EditorConfig",
+    "display": "EditorConfig",
+    "installs": 15371153,
+    "version": "0.18.2",
+    "lastUpdated": "2026-04-08T13:24:36.927Z",
+    "repo": "https://github.com/editorconfig/editorconfig-vscode.git"
+  },
+  {
+    "publisher": "Dart-Code",
+    "name": "flutter",
+    "display": "Flutter",
+    "installs": 15100314,
+    "version": "3.147.20261029",
+    "lastUpdated": "2026-10-29T12:10:39.34Z",
+    "repo": "https://github.com/Dart-Code/Flutter.git"
+  },
+  {
+    "publisher": "yzhang",
+    "name": "markdown-all-in-one",
+    "display": "Markdown All in One",
+    "installs": 14910621,
+    "version": "3.6.3",
+    "lastUpdated": "2025-03-09T15:34:05.007Z",
+    "repo": "https://github.com/yzhang-gh/vscode-markdown.git"
+  },
+  {
+    "publisher": "bradlc",
+    "name": "vscode-tailwindcss",
+    "display": "Tailwind CSS IntelliSense",
+    "installs": 14895974,
+    "version": "0.16.0",
+    "lastUpdated": "2026-07-17T15:33:07.62Z",
+    "repo": "https://github.com/tailwindlabs/tailwindcss-intellisense.git"
+  },
+  {
+    "publisher": "donjayamanne",
+    "name": "python-environment-manager",
+    "display": "Python Environment Manager (deprecated)",
+    "installs": 14742238,
+    "version": "1.2.7",
+    "lastUpdated": "2025-01-06T05:06:58.61Z",
+    "repo": "https://github.com/DonJayamanne/vscode-python-manager.git"
+  },
+  {
+    "publisher": "donjayamanne",
+    "name": "python-extension-pack",
+    "display": "Python Extension Pack",
+    "installs": 14493669,
+    "version": "1.7.0",
+    "lastUpdated": "2021-11-08T05:59:15.42Z",
+    "repo": "https://github.com/DonJayamanne/python-extension-pack.git"
+  },
+  {
+    "publisher": "tomoki1207",
+    "name": "pdf",
+    "display": "vscode-pdf",
+    "installs": 14420175,
+    "version": "1.2.2",
+    "lastUpdated": "2025-01-11T01:48:49.41Z",
+    "repo": "https://github.com/tomoki1207/vscode-pdfviewer.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "live-server",
+    "display": "Live Preview",
+    "installs": 14027382,
+    "version": "0.5.2026092301",
+    "lastUpdated": "2026-09-23T09:28:47.57Z",
+    "repo": "https://github.com/microsoft/vscode-livepreview.git"
+  },
+  {
+    "publisher": "oderwat",
+    "name": "indent-rainbow",
+    "display": "indent-rainbow",
+    "installs": 13518859,
+    "version": "8.3.1",
+    "lastUpdated": "2022-04-09T22:34:09.1Z",
+    "repo": "https://github.com/oderwat/vscode-indent-rainbow.git"
+  },
+  {
+    "publisher": "techer",
+    "name": "open-in-browser",
+    "display": "open in browser",
+    "installs": 13393989,
+    "version": "3.1.0",
+    "lastUpdated": "2026-09-29T02:37:44.73Z",
+    "repo": "https://github.com/SudoKillMe/vscode-extensions-open-in-browser.git"
+  },
+  {
+    "publisher": "zhuangtongfa",
+    "name": "Material-theme",
+    "display": "One Dark Pro",
+    "installs": 12908657,
+    "version": "3.20.6",
+    "lastUpdated": "2026-10-29T13:57:41.887Z",
+    "repo": "https://github.com/Binaryify/OneDark-Pro.git"
+  },
+  {
+    "publisher": "jeff-hykin",
+    "name": "better-cpp-syntax",
+    "display": "Better C++ Syntax",
+    "installs": 12811462,
+    "version": "1.27.1",
+    "lastUpdated": "2024-07-12T21:39:17.357Z",
+    "repo": "https://github.com/jeff-hykin/better-cpp-syntax.git"
+  },
+  {
+    "publisher": "DavidAnson",
+    "name": "vscode-markdownlint",
+    "display": "markdownlint",
+    "installs": 12537103,
+    "version": "0.62.1",
+    "lastUpdated": "2026-08-02T23:21:06.76Z",
+    "repo": "https://github.com/DavidAnson/vscode-markdownlint.git"
+  },
+  {
+    "publisher": "christian-kohler",
+    "name": "npm-intellisense",
+    "display": "npm Intellisense",
+    "installs": 12463047,
+    "version": "1.4.5",
+    "lastUpdated": "2023-10-07T18:26:02.893Z",
+    "repo": "https://github.com/ChristianKohler/NpmIntellisense.git"
+  },
+  {
+    "publisher": "cschlosser",
+    "name": "doxdocgen",
+    "display": "Doxygen Documentation Generator",
+    "installs": 12451416,
+    "version": "1.4.0",
+    "lastUpdated": "2022-02-25T11:04:01.52Z",
+    "repo": "https://github.com/cschlosser/doxdocgen.git"
+  },
+  {
+    "publisher": "MS-CEINTL",
+    "name": "vscode-language-pack-es",
+    "display": "Spanish Language Pack for Visual Studio Code",
+    "installs": 12297591,
+    "version": "1.131.2026090407",
+    "lastUpdated": "2026-09-04T07:49:10.16Z",
+    "repo": "https://github.com/Microsoft/vscode-loc.git"
+  },
+  {
+    "publisher": "abusaidm",
+    "name": "html-snippets",
+    "display": "HTML Snippets",
+    "installs": 12154573,
+    "version": "0.2.1",
+    "lastUpdated": "2017-12-28T15:52:55.08Z",
+    "repo": null
+  },
+  {
+    "publisher": "vadimcn",
+    "name": "vscode-lldb",
+    "display": "CodeLLDB",
+    "installs": 11131914,
+    "version": "1.12.3",
+    "lastUpdated": "2026-08-23T23:50:18.863Z",
+    "repo": "https://github.com/vadimcn/codelldb.git"
+  },
+  {
+    "publisher": "dracula-theme",
+    "name": "theme-dracula",
+    "display": "Dracula Theme Official",
+    "installs": 11129913,
+    "version": "2.25.1",
+    "lastUpdated": "2024-07-17T12:56:35.03Z",
+    "repo": "https://github.com/dracula/visual-studio-code.git"
+  },
+  {
+    "publisher": "msjsdiag",
+    "name": "debugger-for-chrome",
+    "display": "[Deprecated] Debugger for Chrome",
+    "installs": 11027207,
+    "version": "4.13.0",
+    "lastUpdated": "2021-08-03T22:07:31.52Z",
+    "repo": "https://github.com/Microsoft/vscode-chrome-debug"
+  },
+  {
+    "publisher": "redhat",
+    "name": "vscode-xml",
+    "display": "XML",
+    "installs": 10985376,
+    "version": "0.29.2026110808",
+    "lastUpdated": "2026-11-08T08:22:27.013Z",
+    "repo": "https://github.com/redhat-developer/vscode-xml.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "makefile-tools",
+    "display": "Makefile Tools",
+    "installs": 10910724,
+    "version": "0.13.37",
+    "lastUpdated": "2026-06-19T04:46:36.057Z",
+    "repo": "https://github.com/Microsoft/vscode-makefile-tools.git"
+  },
+  {
+    "publisher": "aaron-bond",
+    "name": "better-comments",
+    "display": "Better Comments",
+    "installs": 10787112,
+    "version": "3.2.0",
+    "lastUpdated": "2026-11-03T14:43:56.757Z",
+    "repo": "https://github.com/aaron-bond/better-comments.git"
+  },
+  {
+    "publisher": "HookyQR",
+    "name": "beautify",
+    "display": "Beautify",
+    "installs": 10683680,
+    "version": "1.5.0",
+    "lastUpdated": "2019-05-03T06:01:02.733Z",
+    "repo": "https://github.com/HookyQR/VSCodeBeautify"
+  },
+  {
+    "publisher": "shd101wyy",
+    "name": "markdown-preview-enhanced",
+    "display": "Markdown Preview Enhanced",
+    "installs": 10618078,
+    "version": "0.8.40",
+    "lastUpdated": "2026-10-09T01:34:31.49Z",
+    "repo": "https://github.com/shd101wyy/vscode-markdown-preview-enhanced.git"
+  },
+  {
+    "publisher": "usernamehw",
+    "name": "errorlens",
+    "display": "Error Lens",
+    "installs": 10271673,
+    "version": "3.30.0",
+    "lastUpdated": "2026-10-22T07:15:42.97Z",
+    "repo": "https://github.com/usernamehw/vscode-error-lens.git"
+  },
+  {
+    "publisher": "Zignd",
+    "name": "html-css-class-completion",
+    "display": "IntelliSense for CSS class names in HTML",
+    "installs": 10028068,
+    "version": "1.20.0",
+    "lastUpdated": "2020-12-19T23:09:09.2Z",
+    "repo": "https://github.com/Zignd/HTML-CSS-Class-Completion"
+  },
+  {
+    "publisher": "ms-mssql",
+    "name": "mssql",
+    "display": "SQL Server (mssql)",
+    "installs": 9978637,
+    "version": "1.47.0",
+    "lastUpdated": "2026-10-21T19:20:56.967Z",
+    "repo": "https://github.com/Microsoft/vscode-mssql.git"
+  },
+  {
+    "publisher": "Vue",
+    "name": "volar",
+    "display": "Vue (Official)",
+    "installs": 9913819,
+    "version": "3.3.14",
+    "lastUpdated": "2026-10-29T19:11:58.3Z",
+    "repo": "https://github.com/vuejs/language-tools.git"
+  },
+  {
+    "publisher": "Angular",
+    "name": "ng-template",
+    "display": "Angular Language Service",
+    "installs": 9888643,
+    "version": "22.2.0",
+    "lastUpdated": "2026-09-25T17:54:54.223Z",
+    "repo": "https://github.com/angular/angular.git"
+  },
+  {
+    "publisher": "MS-CEINTL",
+    "name": "vscode-language-pack-pt-BR",
+    "display": "Portuguese (Brazil) Language Pack for Visual Studio Code",
+    "installs": 9770810,
+    "version": "1.131.2026090407",
+    "lastUpdated": "2026-09-04T07:59:58.733Z",
+    "repo": "https://github.com/Microsoft/vscode-loc.git"
+  },
+  {
+    "publisher": "naumovs",
+    "name": "color-highlight",
+    "display": "Color Highlight",
+    "installs": 9743068,
+    "version": "2.8.0",
+    "lastUpdated": "2024-03-14T11:50:25.35Z",
+    "repo": "https://github.com/naumovs/vscode-ext-color-highlight.git"
+  },
+  {
+    "publisher": "TabNine",
+    "name": "tabnine-vscode",
+    "display": "(Legacy) Tabnine",
+    "installs": 9658740,
+    "version": "3.335.0",
+    "lastUpdated": "2026-01-09T07:58:44.377Z",
+    "repo": "https://github.com/codota/tabnine-vscode.git"
+  },
+  {
+    "publisher": "MS-CEINTL",
+    "name": "vscode-language-pack-ru",
+    "display": "Russian Language Pack for Visual Studio Code",
+    "installs": 9344990,
+    "version": "1.131.2026090407",
+    "lastUpdated": "2026-09-04T07:58:54.1Z",
+    "repo": "https://github.com/Microsoft/vscode-loc.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "cpp-devtools",
+    "display": "C/C++ DevTools",
+    "installs": 9249071,
+    "version": "0.7.1",
+    "lastUpdated": "2026-09-16T04:47:55.987Z",
+    "repo": null
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "azure-account",
+    "display": "Azure Account",
+    "installs": 9231517,
+    "version": "0.13.0",
+    "lastUpdated": "2025-01-22T22:09:01.277Z",
+    "repo": "https://github.com/microsoft/vscode-azure-account.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "remote-server",
+    "display": "Remote - Tunnels",
+    "installs": 9210392,
+    "version": "1.6.2026092109",
+    "lastUpdated": "2026-09-21T09:23:18.883Z",
+    "repo": "https://github.com/Microsoft/vscode-remote-release.git"
+  },
+  {
+    "publisher": "vscodevim",
+    "name": "vim",
+    "display": "Vim",
+    "installs": 9183566,
+    "version": "1.32.4",
+    "lastUpdated": "2025-12-14T23:09:26.29Z",
+    "repo": "https://github.com/VSCodeVim/Vim.git"
+  },
+  {
+    "publisher": "ms-vscode-remote",
+    "name": "vscode-remote-extensionpack",
+    "display": "Remote Development",
+    "installs": 9133238,
+    "version": "0.26.0",
+    "lastUpdated": "2024-10-24T14:02:38.103Z",
+    "repo": "https://github.com/Microsoft/vscode-remote-release.git"
+  },
+  {
+    "publisher": "GitHub",
+    "name": "vscode-github-actions",
+    "display": "GitHub Actions",
+    "installs": 8989430,
+    "version": "0.32.3",
+    "lastUpdated": "2026-07-15T18:19:01.35Z",
+    "repo": "https://github.com/github/vscode-github-actions.git"
+  },
+  {
+    "publisher": "ms-python",
+    "name": "autopep8",
+    "display": "autopep8",
+    "installs": 8591773,
+    "version": "2026.5.13101006",
+    "lastUpdated": "2026-11-06T10:39:44.68Z",
+    "repo": "https://github.com/microsoft/vscode-autopep8.git"
+  },
+  {
+    "publisher": "GitHub",
+    "name": "codespaces",
+    "display": "GitHub Codespaces",
+    "installs": 8580001,
+    "version": "1.18.17",
+    "lastUpdated": "2026-11-03T19:57:58.01Z",
+    "repo": null
+  },
+  {
+    "publisher": "mikestead",
+    "name": "dotenv",
+    "display": "DotENV",
+    "installs": 8496799,
+    "version": "1.0.1",
+    "lastUpdated": "2018-03-01T09:01:09.573Z",
+    "repo": "https://github.com/mikestead/vscode-dotenv.git"
+  },
+  {
+    "publisher": "DotJoshJohnson",
+    "name": "xml",
+    "display": "XML Tools",
+    "installs": 8170880,
+    "version": "2.5.1",
+    "lastUpdated": "2020-07-18T03:53:33.85Z",
+    "repo": "https://github.com/DotJoshJohnson/vscode-xml.git"
+  },
+  {
+    "publisher": "pranaygp",
+    "name": "vscode-css-peek",
+    "display": "CSS Peek",
+    "installs": 8057285,
+    "version": "4.5.1",
+    "lastUpdated": "2026-10-23T03:38:35.467Z",
+    "repo": "https://github.com/pranaygp/vscode-css-peek.git"
+  },
+  {
+    "publisher": "Gruntfuggly",
+    "name": "todo-tree",
+    "display": "Todo Tree",
+    "installs": 7913376,
+    "version": "0.0.226",
+    "lastUpdated": "2023-04-12T18:43:52.93Z",
+    "repo": "https://github.com/Gruntfuggly/todo-tree.git"
+  },
+  {
+    "publisher": "ms-azuretools",
+    "name": "vscode-azureresourcegroups",
+    "display": "Azure Resources",
+    "installs": 7844161,
+    "version": "0.13.2",
+    "lastUpdated": "2026-09-28T17:20:23.933Z",
+    "repo": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+  },
+  {
+    "publisher": "ms-python",
+    "name": "black-formatter",
+    "display": "Black Formatter",
+    "installs": 7751128,
+    "version": "2026.7.13081004",
+    "lastUpdated": "2026-11-04T10:46:30.6Z",
+    "repo": "https://github.com/microsoft/vscode-black-formatter.git"
+  },
+  {
+    "publisher": "humao",
+    "name": "rest-client",
+    "display": "REST Client",
+    "installs": 7733971,
+    "version": "0.25.1",
+    "lastUpdated": "2022-08-19T14:24:34.753Z",
+    "repo": "https://github.com/Huachao/vscode-restclient.git"
+  },
+  {
+    "publisher": "rangav",
+    "name": "vscode-thunder-client",
+    "display": "Thunder Client",
+    "installs": 7693425,
+    "version": "3.2.4",
+    "lastUpdated": "2026-11-06T16:48:36.793Z",
+    "repo": "https://github.com/thunderclient/thunder-client-support.git"
+  },
+  {
+    "publisher": "eg2",
+    "name": "vscode-npm-script",
+    "display": "npm",
+    "installs": 7680976,
+    "version": "0.3.29",
+    "lastUpdated": "2022-10-04T10:55:20.807Z",
+    "repo": "https://github.com/Microsoft/vscode-npm-scripts.git"
+  },
+  {
+    "publisher": "alefragnani",
+    "name": "project-manager",
+    "display": "Project Manager",
+    "installs": 7670426,
+    "version": "13.1.0",
+    "lastUpdated": "2026-03-31T13:13:08.017Z",
+    "repo": "https://github.com/alefragnani/vscode-project-manager.git"
+  },
+  {
+    "publisher": "ms-kubernetes-tools",
+    "name": "vscode-kubernetes-tools",
+    "display": "Kubernetes",
+    "installs": 7650099,
+    "version": "1.4.1",
+    "lastUpdated": "2026-07-24T00:17:28.853Z",
+    "repo": "https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "hexeditor",
+    "display": "Hex Editor",
+    "installs": 7522126,
+    "version": "1.11.1",
+    "lastUpdated": "2024-11-03T16:10:07.62Z",
+    "repo": "https://github.com/microsoft/vscode-hexeditor.git"
+  },
+  {
+    "publisher": "franneck94",
+    "name": "c-cpp-runner",
+    "display": "C/C++ Runner",
+    "installs": 7483720,
+    "version": "9.5.0",
+    "lastUpdated": "2025-10-01T07:20:15.02Z",
+    "repo": "https://github.com/franneck94/vscode-c-cpp-runner.git"
+  },
+  {
+    "publisher": "platformio",
+    "name": "platformio-ide",
+    "display": "PlatformIO IDE",
+    "installs": 7480767,
+    "version": "3.3.4",
+    "lastUpdated": "2025-01-11T15:02:25.52Z",
+    "repo": "https://github.com/platformio/platformio-vscode-ide.git"
+  },
+  {
+    "publisher": "akamud",
+    "name": "vscode-theme-onedark",
+    "display": "Atom One Dark Theme",
+    "installs": 7411517,
+    "version": "2.3.0",
+    "lastUpdated": "2022-10-08T14:12:57.92Z",
+    "repo": "https://github.com/akamud/vscode-theme-onedark.git"
+  },
+  {
+    "publisher": "MS-CEINTL",
+    "name": "vscode-language-pack-ko",
+    "display": "Korean Language Pack for Visual Studio Code",
+    "installs": 7260576,
+    "version": "1.131.2026090407",
+    "lastUpdated": "2026-09-04T07:52:27.547Z",
+    "repo": "https://github.com/Microsoft/vscode-loc.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "vscode-typescript-next",
+    "display": "JavaScript and TypeScript Nightly",
+    "installs": 7243902,
+    "version": "6.0.20260416",
+    "lastUpdated": "2026-04-17T00:16:25.09Z",
+    "repo": "https://github.com/microsoft/vscode-typescript-next.git"
+  },
+  {
+    "publisher": "mtxr",
+    "name": "sqltools",
+    "display": "SQLTools",
+    "installs": 7185516,
+    "version": "0.28.6",
+    "lastUpdated": "2026-07-06T17:06:26.9Z",
+    "repo": "https://github.com/mtxr/vscode-sqltools.git"
+  },
+  {
+    "publisher": "DEVSENSE",
+    "name": "phptools-vscode",
+    "display": "PHP",
+    "installs": 7185131,
+    "version": "1.76.19502",
+    "lastUpdated": "2026-11-02T15:27:29.573Z",
+    "repo": "https://github.com/DEVSENSE/phptools-docs.git"
+  },
+  {
+    "publisher": "GitHub",
+    "name": "remotehub",
+    "display": "GitHub Repositories",
+    "installs": 7129750,
+    "version": "0.66.2026102901",
+    "lastUpdated": "2026-10-29T09:31:13.017Z",
+    "repo": "https://github.com/microsoft/vscode-remote-repositories-github.git"
+  },
+  {
+    "publisher": "vscjava",
+    "name": "vscode-spring-initializr",
+    "display": "Spring Initializr Java Support",
+    "installs": 6961452,
+    "version": "0.12.1",
+    "lastUpdated": "2026-10-21T05:41:04.103Z",
+    "repo": "https://github.com/Microsoft/vscode-spring-initializr.git"
+  },
+  {
+    "publisher": "HashiCorp",
+    "name": "terraform",
+    "display": "HashiCorp Terraform",
+    "installs": 6912625,
+    "version": "2.40.1",
+    "lastUpdated": "2026-11-02T07:29:02.82Z",
+    "repo": "https://github.com/hashicorp/vscode-terraform.git"
+  },
+  {
+    "publisher": "GrapeCity",
+    "name": "gc-excelviewer",
+    "display": "Spreadsheet Viewer",
+    "installs": 6845628,
+    "version": "4.2.67",
+    "lastUpdated": "2026-11-04T17:17:56.873Z",
+    "repo": "https://github.com/wijmo/gc-excelviewer.git"
+  },
+  {
+    "publisher": "DEVSENSE",
+    "name": "composer-php-vscode",
+    "display": "Composer",
+    "installs": 6836218,
+    "version": "1.76.19502",
+    "lastUpdated": "2026-11-02T15:25:15.59Z",
+    "repo": "https://github.com/DEVSENSE/phptools-docs.git"
+  },
+  {
+    "publisher": "rust-lang",
+    "name": "rust-analyzer",
+    "display": "rust-analyzer",
+    "installs": 6835216,
+    "version": "0.4.3111",
+    "lastUpdated": "2026-11-08T01:01:34.607Z",
+    "repo": "https://github.com/rust-lang/rust-analyzer.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "remote-repositories",
+    "display": "Remote Repositories",
+    "installs": 6795276,
+    "version": "0.45.2026102901",
+    "lastUpdated": "2026-10-29T09:31:49.31Z",
+    "repo": "https://github.com/microsoft/vscode-remote-repositories-github.git"
+  },
+  {
+    "publisher": "CoenraadS",
+    "name": "bracket-pair-colorizer-2",
+    "display": "[Deprecated] Bracket Pair Colorizer 2",
+    "installs": 6766294,
+    "version": "0.2.4",
+    "lastUpdated": "2022-03-24T16:33:34.69Z",
+    "repo": "https://github.com/CoenraadS/Bracket-Pair-Colorizer-2.git"
+  },
+  {
+    "publisher": "tht13",
+    "name": "python",
+    "display": "Python for VSCode",
+    "installs": 6757676,
+    "version": "0.2.3",
+    "lastUpdated": "2016-02-21T22:18:07.54Z",
+    "repo": "https://github.com/tht13/Python-vscode.git"
+  },
+  {
+    "publisher": "MS-CEINTL",
+    "name": "vscode-language-pack-fr",
+    "display": "French Language Pack for Visual Studio Code",
+    "installs": 6723089,
+    "version": "1.131.2026090407",
+    "lastUpdated": "2026-09-04T07:49:41.877Z",
+    "repo": "https://github.com/Microsoft/vscode-loc.git"
+  },
+  {
+    "publisher": "ms-edgedevtools",
+    "name": "vscode-edge-devtools",
+    "display": "Microsoft Edge Tools for VS Code",
+    "installs": 6719468,
+    "version": "2.1.14",
+    "lastUpdated": "2026-11-06T22:41:37.277Z",
+    "repo": "https://github.com/Microsoft/vscode-edge-devtools.git"
+  },
+  {
+    "publisher": "Oracle",
+    "name": "oracle-java",
+    "display": "Java",
+    "installs": 6697506,
+    "version": "27.0.0",
+    "lastUpdated": "2026-10-05T14:10:51.12Z",
+    "repo": "https://github.com/oracle/javavscode.git"
+  },
+  {
+    "publisher": "DEVSENSE",
+    "name": "profiler-php-vscode",
+    "display": "PHP Profiler",
+    "installs": 6678957,
+    "version": "1.76.19502",
+    "lastUpdated": "2026-11-02T15:25:22.54Z",
+    "repo": "https://github.com/DEVSENSE/phptools-docs.git"
+  },
+  {
+    "publisher": "burkeholland",
+    "name": "simple-react-snippets",
+    "display": "Simple React Snippets",
+    "installs": 6597251,
+    "version": "1.2.8",
+    "lastUpdated": "2024-04-08T15:02:19.03Z",
+    "repo": "https://github.com/burkeholland/simple-react-snippets.git"
+  },
+  {
+    "publisher": "codezombiech",
+    "name": "gitignore",
+    "display": "gitignore",
+    "installs": 6524420,
+    "version": "0.10.0",
+    "lastUpdated": "2025-03-01T02:05:09.14Z",
+    "repo": "https://github.com/CodeZombieCH/vscode-gitignore.git"
+  },
+  {
+    "publisher": "xdebug",
+    "name": "php-pack",
+    "display": "PHP Extension Pack",
+    "installs": 6449027,
+    "version": "1.0.3",
+    "lastUpdated": "2022-01-21T13:28:24.117Z",
+    "repo": "https://github.com/zobo/vscode-php-pack.git"
+  },
+  {
+    "publisher": "ms-azuretools",
+    "name": "vscode-azurefunctions",
+    "display": "Azure Functions",
+    "installs": 6352214,
+    "version": "1.22.2",
+    "lastUpdated": "2026-09-25T19:12:22.833Z",
+    "repo": "https://github.com/Microsoft/vscode-azurefunctions.git"
+  },
+  {
+    "publisher": "msjsdiag",
+    "name": "vscode-react-native",
+    "display": "React Native Tools",
+    "installs": 6282110,
+    "version": "1.13.0",
+    "lastUpdated": "2024-03-25T00:51:19.663Z",
+    "repo": "https://github.com/microsoft/vscode-react-native.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "azure-repos",
+    "display": "Azure Repos",
+    "installs": 6255179,
+    "version": "0.41.2026102901",
+    "lastUpdated": "2026-10-29T09:31:49.027Z",
+    "repo": "https://github.com/microsoft/vscode-remote-repositories-github.git"
+  },
+  {
+    "publisher": "wayou",
+    "name": "vscode-todo-highlight",
+    "display": "TODO Highlight",
+    "installs": 6190308,
+    "version": "1.0.5",
+    "lastUpdated": "2021-10-29T03:31:46.533Z",
+    "repo": "https://github.com/wayou/vscode-todo-highlight.git"
+  },
+  {
+    "publisher": "ms-mssql",
+    "name": "data-workspace-vscode",
+    "display": "Data Workspace",
+    "installs": 6160012,
+    "version": "0.8.0",
+    "lastUpdated": "2026-10-21T19:10:18.347Z",
+    "repo": "https://github.com/microsoft/vscode-mssql.git"
+  },
+  {
+    "publisher": "zobo",
+    "name": "php-intellisense",
+    "display": "PHP IntelliSense",
+    "installs": 6140445,
+    "version": "1.3.3",
+    "lastUpdated": "2023-09-14T23:31:20.497Z",
+    "repo": "https://github.com/zobo/vscode-php-intellisense.git"
+  },
+  {
+    "publisher": "danielpinto8zz6",
+    "name": "c-cpp-compile-run",
+    "display": "C/C++ Compile Run",
+    "installs": 6102387,
+    "version": "1.0.92",
+    "lastUpdated": "2026-04-04T01:36:21.493Z",
+    "repo": "https://github.com/danielpinto8zz6/c-cpp-compile-run.git"
+  },
+  {
+    "publisher": "DEVSENSE",
+    "name": "intelli-php-vscode",
+    "display": "IntelliPHP - AI Suggestions for PHP",
+    "installs": 6083750,
+    "version": "0.12.17700",
+    "lastUpdated": "2025-07-28T15:57:29.03Z",
+    "repo": "https://github.com/DEVSENSE/phptools-docs.git"
+  },
+  {
+    "publisher": "vmware",
+    "name": "vscode-spring-boot",
+    "display": "Spring Boot Tools",
+    "installs": 6041157,
+    "version": "2.5.2026110700",
+    "lastUpdated": "2026-11-07T01:29:58.993Z",
+    "repo": "https://github.com/spring-projects/spring-tools.git"
+  },
+  {
+    "publisher": "ms-mssql",
+    "name": "sql-database-projects-vscode",
+    "display": "SQL Database Projects",
+    "installs": 6016823,
+    "version": "1.9.0",
+    "lastUpdated": "2026-10-21T19:10:20.853Z",
+    "repo": "https://github.com/Microsoft/vscode-mssql.git"
+  },
+  {
+    "publisher": "sidthesloth",
+    "name": "html5-boilerplate",
+    "display": "HTML Boilerplate",
+    "installs": 5962399,
+    "version": "1.1.1",
+    "lastUpdated": "2020-09-28T13:20:33.517Z",
+    "repo": "https://github.com/sidthesloth92/vsc_html5_boilerplate.git"
+  },
+  {
+    "publisher": "Equinusocio",
+    "name": "vsc-material-theme-icons",
+    "display": "Material Theme Icons \u2014 Deprecated",
+    "installs": 5942095,
+    "version": "3.9.2",
+    "lastUpdated": "2025-10-06T10:04:12.927Z",
+    "repo": "https://github.com/vira-themes/vira-theme-support.git"
+  },
+  {
+    "publisher": "James-Yu",
+    "name": "latex-workshop",
+    "display": "LaTeX Workshop",
+    "installs": 5888525,
+    "version": "10.20.0",
+    "lastUpdated": "2026-10-17T06:55:52.18Z",
+    "repo": "https://github.com/James-Yu/LaTeX-Workshop.git"
+  },
+  {
+    "publisher": "saoudrizwan",
+    "name": "claude-dev",
+    "display": "Cline",
+    "installs": 5871137,
+    "version": "4.1.26",
+    "lastUpdated": "2026-10-26T09:19:53.883Z",
+    "repo": "https://github.com/cline/cline.git"
+  },
+  {
+    "publisher": "MS-CEINTL",
+    "name": "vscode-language-pack-de",
+    "display": "German Language Pack for Visual Studio Code",
+    "installs": 5838610,
+    "version": "1.131.2026090407",
+    "lastUpdated": "2026-09-04T07:52:07.27Z",
+    "repo": "https://github.com/Microsoft/vscode-loc.git"
+  },
+  {
+    "publisher": "hbenl",
+    "name": "vscode-test-explorer",
+    "display": "Test Explorer UI",
+    "installs": 5662687,
+    "version": "2.22.1",
+    "lastUpdated": "2024-09-22T08:59:33.53Z",
+    "repo": "https://github.com/hbenl/vscode-test-explorer.git"
+  },
+  {
+    "publisher": "Google",
+    "name": "geminicodeassist",
+    "display": "Gemini Code Assist",
+    "installs": 5647587,
+    "version": "2.107.0",
+    "lastUpdated": "2026-10-29T20:46:43.22Z",
+    "repo": null
+  },
+  {
+    "publisher": "ms-mssql",
+    "name": "sql-bindings-vscode",
+    "display": "SQL Bindings",
+    "installs": 5637961,
+    "version": "0.4.1",
+    "lastUpdated": "2025-04-30T20:32:15.28Z",
+    "repo": "https://github.com/Microsoft/azuredatastudio.git"
+  },
+  {
+    "publisher": "wix",
+    "name": "vscode-import-cost",
+    "display": "Import Cost",
+    "installs": 5592526,
+    "version": "3.3.0",
+    "lastUpdated": "2022-04-10T08:34:31.73Z",
+    "repo": "https://github.com/wix/import-cost.git"
+  },
+  {
+    "publisher": "firefox-devtools",
+    "name": "vscode-firefox-debug",
+    "display": "Debugger for Firefox",
+    "installs": 5548878,
+    "version": "2.15.0",
+    "lastUpdated": "2025-02-28T16:24:40.797Z",
+    "repo": "https://github.com/firefox-devtools/vscode-firefox-debug.git"
+  },
+  {
+    "publisher": "MS-vsliveshare",
+    "name": "vsliveshare-audio",
+    "display": "[Deprecated] Live Share Audio",
+    "installs": 5529475,
+    "version": "0.1.93",
+    "lastUpdated": "2023-01-27T02:34:16.443Z",
+    "repo": "https://github.com/MicrosoftDocs/live-share"
+  },
+  {
+    "publisher": "steoates",
+    "name": "autoimport",
+    "display": "Auto Import",
+    "installs": 5517336,
+    "version": "1.5.4",
+    "lastUpdated": "2021-04-15T15:34:51.077Z",
+    "repo": null
+  },
+  {
+    "publisher": "johnpapa",
+    "name": "Angular2",
+    "display": "Angular Snippets (Version 22)",
+    "installs": 5490907,
+    "version": "22.0.0",
+    "lastUpdated": "2026-07-20T00:35:58.977Z",
+    "repo": "https://github.com/johnpapa/vscode-angular-snippets.git"
+  },
+  {
+    "publisher": "bierner",
+    "name": "markdown-mermaid",
+    "display": "Markdown Preview Mermaid Support",
+    "installs": 5485492,
+    "version": "1.32.1",
+    "lastUpdated": "2026-05-21T00:11:05.957Z",
+    "repo": "https://github.com/mjbvz/vscode-markdown-mermaid.git"
+  },
+  {
+    "publisher": "vscjava",
+    "name": "vscode-spring-boot-dashboard",
+    "display": "Spring Boot Dashboard",
+    "installs": 5419574,
+    "version": "0.15.0",
+    "lastUpdated": "2026-10-15T07:46:50.197Z",
+    "repo": "https://github.com/Microsoft/vscode-spring-boot-dashboard.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "test-adapter-converter",
+    "display": "Test Adapter Converter",
+    "installs": 5365920,
+    "version": "0.2.1",
+    "lastUpdated": "2024-11-04T23:20:48.797Z",
+    "repo": "https://github.com/microsoft/vscode-test-adapter-converter.git"
+  },
+  {
+    "publisher": "MS-CEINTL",
+    "name": "vscode-language-pack-zh-hant",
+    "display": "Chinese (Traditional) Language Pack for Visual Studio Code",
+    "installs": 5265440,
+    "version": "1.131.2026090407",
+    "lastUpdated": "2026-09-04T08:02:50.503Z",
+    "repo": "https://github.com/Microsoft/vscode-loc.git"
+  },
+  {
+    "publisher": "AmazonWebServices",
+    "name": "aws-toolkit-vscode",
+    "display": "AWS Toolkit",
+    "installs": 5256175,
+    "version": "4.19.0",
+    "lastUpdated": "2026-11-04T20:22:24.233Z",
+    "repo": "https://github.com/aws/aws-toolkit-vscode.git"
+  },
+  {
+    "publisher": "alefragnani",
+    "name": "Bookmarks",
+    "display": "Bookmarks",
+    "installs": 5212883,
+    "version": "14.1.1",
+    "lastUpdated": "2026-04-08T11:45:30.363Z",
+    "repo": "https://github.com/alefragnani/vscode-bookmarks.git"
+  },
+  {
+    "publisher": "austin",
+    "name": "code-gnu-global",
+    "display": "C++ Intellisense",
+    "installs": 5079037,
+    "version": "0.2.2",
+    "lastUpdated": "2017-05-13T23:57:26.327Z",
+    "repo": "https://github.com/austin-----/code-gnu-global"
+  },
+  {
+    "publisher": "tamasfe",
+    "name": "even-better-toml",
+    "display": "Even Better TOML",
+    "installs": 5040604,
+    "version": "0.21.2",
+    "lastUpdated": "2024-12-20T17:47:36.94Z",
+    "repo": "https://github.com/tamasfe/taplo.git"
+  },
+  {
+    "publisher": "charliermarsh",
+    "name": "ruff",
+    "display": "Ruff",
+    "installs": 4986269,
+    "version": "2026.94.0",
+    "lastUpdated": "2026-11-05T20:38:10.93Z",
+    "repo": "https://github.com/astral-sh/ruff-vscode.git"
+  },
+  {
+    "publisher": "onecentlin",
+    "name": "laravel-blade",
+    "display": "Laravel Blade Snippets",
+    "installs": 4906206,
+    "version": "1.38.0",
+    "lastUpdated": "2026-03-31T17:13:09.73Z",
+    "repo": "https://github.com/onecentlin/laravel-blade-snippets-vscode.git"
+  },
+  {
+    "publisher": "hollowtree",
+    "name": "vue-snippets",
+    "display": "Vue 3 Snippets",
+    "installs": 4863801,
+    "version": "1.0.4",
+    "lastUpdated": "2020-12-03T03:08:20.75Z",
+    "repo": "https://github.com/hollowtree/vscode-vue-snippets"
+  },
+  {
+    "publisher": "rvest",
+    "name": "vs-code-prettier-eslint",
+    "display": "Prettier ESLint",
+    "installs": 4850747,
+    "version": "6.0.0",
+    "lastUpdated": "2024-02-06T19:19:08.337Z",
+    "repo": "https://github.com/idahogurl/vs-code-prettier-eslint.git"
+  },
+  {
+    "publisher": "vmware",
+    "name": "vscode-boot-dev-pack",
+    "display": "Spring Boot Extension Pack",
+    "installs": 4812390,
+    "version": "0.2.2",
+    "lastUpdated": "2025-01-28T17:23:25.743Z",
+    "repo": "https://github.com/spring-projects/sts4.git"
+  },
+  {
+    "publisher": "alexcvzz",
+    "name": "vscode-sqlite",
+    "display": "SQLite",
+    "installs": 4791722,
+    "version": "0.14.1",
+    "lastUpdated": "2022-06-04T16:19:15.067Z",
+    "repo": "https://github.com/AlexCovizzi/vscode-sqlite.git"
+  },
+  {
+    "publisher": "SonarSource",
+    "name": "sonarlint-vscode",
+    "display": "SonarQube for IDE",
+    "installs": 4773313,
+    "version": "6.2.0",
+    "lastUpdated": "2026-10-23T19:33:52.323Z",
+    "repo": "https://github.com/SonarSource/sonarlint-vscode.git"
+  },
+  {
+    "publisher": "ms-vscode",
+    "name": "vscode-typescript-tslint-plugin",
+    "display": "TSLint",
+    "installs": 4596890,
+    "version": "1.3.4",
+    "lastUpdated": "2022-03-31T23:34:41.673Z",
+    "repo": "https://github.com/Microsoft/vscode-typescript-tslint-plugin.git"
+  },
+  {
+    "publisher": "ziyasal",
+    "name": "vscode-open-in-github",
+    "display": "Open in GitHub, Bitbucket, Gitlab, VisualStudio.com !",
+    "installs": 4554191,
+    "version": "1.3.6",
+    "lastUpdated": "2018-10-01T21:09:39.35Z",
+    "repo": "https://github.com/ziyasal/vscode-open-in-github.git"
+  },
+  {
+    "publisher": "Continue",
+    "name": "continue",
+    "display": "Continue - open-source AI code agent",
+    "installs": 4519529,
+    "version": "2.1.0",
+    "lastUpdated": "2026-06-19T00:46:59.05Z",
+    "repo": "https://github.com/continuedev/continue.git"
+  },
+  {
+    "publisher": "magicstack",
+    "name": "MagicPython",
+    "display": "MagicPython",
+    "installs": 4512348,
+    "version": "1.1.0",
+    "lastUpdated": "2018-10-04T22:13:59.453Z",
+    "repo": "https://github.com/MagicStack/MagicPython.git"
+  },
+  {
+    "publisher": "johnpapa",
+    "name": "vscode-peacock",
+    "display": "Peacock",
+    "installs": 4510999,
+    "version": "4.5.1",
+    "lastUpdated": "2026-09-29T19:18:22.56Z",
+    "repo": "https://github.com/johnpapa/vscode-peacock.git"
+  },
+  {
+    "publisher": "WallabyJs",
+    "name": "quokka-vscode",
+    "display": "Quokka.js",
+    "installs": 4461042,
+    "version": "1.0.769",
+    "lastUpdated": "2026-08-20T02:21:10.667Z",
+    "repo": null
+  },
+  {
+    "publisher": "cweijan",
+    "name": "dbclient-jdbc",
+    "display": "Database Client JDBC",
+    "installs": 4420133,
+    "version": "1.4.6",
+    "lastUpdated": "2025-06-15T08:31:52.643Z",
+    "repo": "https://github.com/database-client/jdbc-adapter-server.git"
+  },
+  {
+    "publisher": "ms-dotnettools",
+    "name": "vscodeintellicode-csharp",
+    "display": "IntelliCode for C# Dev Kit",
+    "installs": 4322722,
+    "version": "2.2.3",
+    "lastUpdated": "2024-11-13T06:10:01.273Z",
+    "repo": "https://github.com/MicrosoftDocs/intellicode.git"
+  },
+  {
+    "publisher": "kisstkondoros",
+    "name": "vscode-gutter-preview",
+    "display": "Image preview",
+    "installs": 4312644,
+    "version": "0.32.2",
+    "lastUpdated": "2024-11-30T20:10:18.34Z",
+    "repo": "https://github.com/kisstkondoros/gutter-preview.git"
+  },
+  {
+    "publisher": "Equinusocio",
+    "name": "vsc-material-theme",
+    "display": "Material Theme \u2014 Deprecated",
+    "installs": 4299383,
+    "version": "34.7.16",
+    "lastUpdated": "2025-10-06T10:01:42.23Z",
+    "repo": "https://github.com/vira-themes/vira-theme-support.git"
+  },
+  {
+    "publisher": "yzane",
+    "name": "markdown-pdf",
+    "display": "Markdown PDF",
+    "installs": 4287806,
+    "version": "2.2.0",
+    "lastUpdated": "2026-07-29T16:06:51.763Z",
+    "repo": "https://github.com/yzane/vscode-markdown-pdf.git"
+  },
+  {
+    "publisher": "Shan",
+    "name": "code-settings-sync",
+    "display": "Settings Sync",
+    "installs": 4281404,
+    "version": "3.4.3",
+    "lastUpdated": "2019-09-23T13:05:45.24Z",
+    "repo": "https://github.com/shanalikhan/code-settings-sync.git"
+  },
+  {
+    "publisher": "hediet",
+    "name": "vscode-drawio",
+    "display": "Draw.io Integration",
+    "installs": 4274900,
+    "version": "1.19.261106065",
+    "lastUpdated": "2026-11-06T15:24:45.96Z",
+    "repo": "https://github.com/hediet/vscode-drawio.git"
+  }
+]

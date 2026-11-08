@@ -49,6 +49,7 @@ def extract(resp):
                 installs = int(stat["value"])
         versions = ext.get("versions") or [{}]
         latest_version = versions[0].get("version")
+        last_updated = versions[0].get("lastUpdated")
         repo = None
         for prop in versions[0].get("properties", []):
             if prop.get("key") in (
@@ -64,6 +65,7 @@ def extract(resp):
                 "display": ext["displayName"],
                 "installs": installs,
                 "version": latest_version,
+                "lastUpdated": last_updated,
                 "repo": repo,
             }
         )
