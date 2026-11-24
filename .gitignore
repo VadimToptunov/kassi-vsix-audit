@@ -4,7 +4,10 @@
 /filtered.json
 /audit.json
 /ranked.json
+/inventory.json
 osv_cache.json
+# watch_feed.py local state (checkpoint + rows already reported)
+feed_state.json
 download.log
 audit.log
 

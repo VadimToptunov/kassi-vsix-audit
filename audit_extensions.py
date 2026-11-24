@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Unpack .vsix, enumerate node_modules, query OSV for vulnerabilities."""
+"""Unpack .vsix, enumerate node_modules, query OSV for vulnerabilities.
+
+Writes two files: the OSV matches (audit.json) and, next to it, inventory.json:
+every extension with every (name, version) it ships, matched or not.
+watch_feed.py needs the inventory to tell whether a new advisory hits a
+dependency that was clean at snapshot time.
+"""
 import glob
 import json
 import os
@@ -97,11 +103,14 @@ def main():
     print(f"found {len(vsix_files)} vsix", file=sys.stderr)
 
     all_findings = []
+    inventory = []
     for i, vsix in enumerate(vsix_files, 1):
         ext_id = os.path.basename(vsix).replace(".vsix", "")
         ext_dir = unpack(vsix, unpack_root)
         deps = enumerate_deps(ext_dir)
         print(f"{i:>3}/{len(vsix_files)}  {ext_id}: {len(deps)} deps", file=sys.stderr)
+        pairs = sorted({(d["name"], d["version"]) for d in deps})
+        inventory.append({"ext": ext_id, "deps": [{"name": n, "version": v} for n, v in pairs]})
         if not deps:
             continue
         # dedup: query unique (name, version) pairs
@@ -131,6 +140,10 @@ def main():
     with open(out_path, "w") as f:
         json.dump(all_findings, f, indent=2)
     print(f"wrote {len(all_findings)} findings to {out_path}", file=sys.stderr)
+    inv_path = os.path.join(os.path.dirname(out_path) or ".", "inventory.json")
+    with open(inv_path, "w") as f:
+        json.dump(inventory, f, indent=1)
+    print(f"wrote inventory of {len(inventory)} extensions to {inv_path}", file=sys.stderr)
 
 
 if __name__ == "__main__":

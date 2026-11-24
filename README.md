@@ -36,11 +36,34 @@ Each run pins its inputs and outputs under `runs/<YYYY-MM-DD>/`. `diff_runs.py` 
 python3 diff_runs.py runs/2026-11-08 runs/2027-02-08 > CHANGELOG.md
 ```
 
-Keep the pinned `top200.json` (raw Marketplace response), `filtered.json` (sampled extensions with `lastUpdated` timestamps), `audit.json` (raw OSV matches), `ranked.json` (enriched), and `DATASET.csv` (flat) for each run so historical diffs remain reproducible.
+Keep the pinned `top200.json` (raw Marketplace response), `filtered.json` (sampled extensions with `lastUpdated` timestamps), `audit.json` (raw OSV matches), `inventory.json` (every shipped dependency), `ranked.json` (enriched), and `DATASET.csv` (flat) for each run so historical diffs remain reproducible.
+
+## Watching the OSV feed between snapshots
+
+A quarterly re-run catches a new advisory up to three months late. Between snapshots, `watch_feed.py` checks the OSV npm change feed against what a snapshot pinned, without downloading any extension again:
+
+```bash
+python3 watch_feed.py runs/2026-11-08
+```
+
+1. It reads [`modified_id.csv`](https://osv-vulnerabilities.storage.googleapis.com/npm/modified_id.csv) (every npm record OSV changed, newest first) back to the last checkpoint, or to the snapshot date on the first run.
+2. It fetches each changed record and keeps the ones that name a package the snapshot ships, at any version.
+3. For those packages it re-queries OSV `/v1/querybatch` with the exact pinned versions, so OSV decides whether a version is in range.
+4. It prints a markdown table of matches that the snapshot's `audit.json` didn't have and that an earlier run didn't report yet, plus records withdrawn since the snapshot. `MAL-*` (malicious package) records come through the same feed.
+
+The checkpoint and the rows already reported are kept in `runs/<date>/feed_state.json` (not tracked). `--since <ISO time>` overrides the checkpoint, `--dry-run` doesn't move it. Exit code 0 means nothing new, 1 means something new, 2 means an error. If some feed records couldn't be fetched, the checkpoint stays where it was.
+
+It needs `runs/<date>/inventory.json`: every extension with every `(name, version)` it ships, matched or not. `audit_extensions.py` now writes it next to `audit.json`. The 2026-11-08 inventory was rebuilt on 2026-11-24 from the same pinned `.vsix` versions; the rebuilt audit reproduced all 300 `(extension, dependency, version, advisory)` rows of the snapshot.
+
+On 2026-11-24, the 2,188 npm records OSV changed since the snapshot (138 GHSA, 2,049 MAL, 1 other) included 1 that names a package the snapshot ships, and it doesn't apply to the pinned versions. A full pass takes about 3 minutes, most of it fetching the changed records.
+
+Check that it can find something before trusting a quiet result: copy the run, delete a known row from the copy's `audit.json`, and run with `--since` before that advisory's `modified` date. Done with Live Server's `websocket-driver 0.7.4` / GHSA-xv26-6w52-cph6 and `--since 2026-09-10T03:50:00Z`: the row came back as the only new match, and a second run didn't report it again.
+
+The bundled-JS blind spot carries over: an extension that ships a single bundled JS file has no inventory, so nothing in the feed can match it.
 
 ## Pipeline
 
-Six short scripts, each solving one step. Run in order:
+Six short scripts, each solving one step (plus `diff_runs.py` and `watch_feed.py` for comparing and watching snapshots). Run in order:
 
 ```bash
 # 1. Pull top N extensions from Marketplace extensionquery API
@@ -53,6 +76,7 @@ python3 filter_publishers.py top200.json filtered.json
 python3 download_vsix.py filtered.json 100 vsix/
 
 # 4. Unpack each .vsix and OSV-query every shipped node_modules dep
+#    (also writes inventory.json, which watch_feed.py needs)
 python3 audit_extensions.py 'vsix/*.vsix' unpacked/ audit.json
 
 # 5. Enrich with GHSA severity + install count; produce ranked.json
